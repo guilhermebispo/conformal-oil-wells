@@ -1,0 +1,13 @@
+# Exact environment of the article's runs (Google Colab, Linux x86_64,
+# Python 3.13.18, CPU only, one thread per seed), from environment.json of
+# every merged run.  pandas/pyarrow/matplotlib/pytest/lightgbm versions were
+# not recorded by the runs; the minimum versions of requirements.txt apply.
+numpy==2.4.6
+scipy==1.17.1
+scikit-learn==1.9.0
+torch==2.12.0
+pandas>=2.0.0
+pyarrow>=12.0.0
+matplotlib>=3.7.0
+pytest>=7.0.0
+lightgbm>=4.0.0

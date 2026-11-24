@@ -1,0 +1,7492 @@
+{
+ "alpha": 0.1,
+ "beta": 0.1,
+ "delta": 0.1,
+ "min_well_windows": 100,
+ "summary": {
+  "hier.window.rf.tau": 0.7550631538033485,
+  "hier.window.rf.tau.min": 0.6084950864315033,
+  "hier.window.rf.tau.max": 0.9300838336348534,
+  "hier.window.rf.coverage": 0.9183219462821584,
+  "hier.window.rf.coverage.min": 0.8474056165147852,
+  "hier.window.rf.coverage.max": 0.9728271532273887,
+  "hier.window.rf.coverage_well_mean": 0.7860367528687717,
+  "hier.window.rf.coverage_well_mean.min": 0.5544657791874409,
+  "hier.window.rf.coverage_well_mean.max": 0.8899573601643636,
+  "hier.window.rf.share_wells_covered": 0.6900000000000001,
+  "hier.window.rf.share_wells_covered.min": 0.5,
+  "hier.window.rf.share_wells_covered.max": 0.8666666666666667,
+  "hier.window.rf.coverage_worst_well": 0.5633810872691791,
+  "hier.window.rf.coverage_worst_well.min": 0.38461538461538464,
+  "hier.window.rf.coverage_worst_well.max": 0.8204607046070461,
+  "hier.window.rf.share_wells_firing_le_beta": 0.79,
+  "hier.window.rf.share_wells_firing_le_beta.min": 0.5333333333333333,
+  "hier.window.rf.share_wells_firing_le_beta.max": 1.0,
+  "hier.window.rf.firing_rate": 0.04802804476240618,
+  "hier.window.rf.firing_rate.min": 0.0198744769874477,
+  "hier.window.rf.firing_rate.max": 0.15254437869822485,
+  "hier.window.rf.mean_set_size": 1.4594429750634883,
+  "hier.window.rf.mean_set_size.min": 1.236315629125622,
+  "hier.window.rf.mean_set_size.max": 1.8609467455621302,
+  "hier.window.rf.singleton_rate": 0.5405570249365117,
+  "hier.window.rf.singleton_rate.min": 0.1390532544378698,
+  "hier.window.rf.singleton_rate.max": 0.763684370874378,
+  "hier.window.rf.abstention": 0.48381909867716055,
+  "hier.window.rf.abstention.min": 0.2522595714430791,
+  "hier.window.rf.abstention.max": 0.9293491124260355,
+  "hier.window.rf.wrong_label_rate": 0.06786087980596175,
+  "hier.window.rf.wrong_label_rate.min": 0.015401216401804984,
+  "hier.window.rf.wrong_label_rate.max": 0.13846010786684024,
+  "hier.window.rf.novelty_recall": 0.6741252271003215,
+  "hier.window.rf.novelty_recall.min": 0.3088235294117647,
+  "hier.window.rf.novelty_recall.max": 0.9934102141680395,
+  "hier.window.rf.novelty_lift": 0.19030612842316103,
+  "hier.window.rf.novelty_lift.min": -0.2709552331821486,
+  "hier.window.rf.novelty_lift.max": 0.5636876916400815,
+  "hier.window.rf.n_infinite_tau": 0,
+  "hier.window.rf.K_cal_wells.min": 1,
+  "hier.well_quantile.rf.tau": Infinity,
+  "hier.well_quantile.rf.tau.min": 0.9121775254607201,
+  "hier.well_quantile.rf.tau.max": Infinity,
+  "hier.well_quantile.rf.coverage": 0.998258887694534,
+  "hier.well_quantile.rf.coverage.min": 0.9965666078085148,
+  "hier.well_quantile.rf.coverage.max": 1.0,
+  "hier.well_quantile.rf.coverage_well_mean": 0.9855804163442009,
+  "hier.well_quantile.rf.coverage_well_mean.min": 0.965158371040724,
+  "hier.well_quantile.rf.coverage_well_mean.max": 1.0,
+  "hier.well_quantile.rf.share_wells_covered": 0.9666666666666666,
+  "hier.well_quantile.rf.share_wells_covered.min": 0.8333333333333334,
+  "hier.well_quantile.rf.share_wells_covered.max": 1.0,
+  "hier.well_quantile.rf.coverage_worst_well": 0.9570157994404767,
+  "hier.well_quantile.rf.coverage_worst_well.min": 0.8791208791208791,
+  "hier.well_quantile.rf.coverage_worst_well.max": 1.0,
+  "hier.well_quantile.rf.share_wells_firing_le_beta": 0.95,
+  "hier.well_quantile.rf.share_wells_firing_le_beta.min": 0.75,
+  "hier.well_quantile.rf.share_wells_firing_le_beta.max": 1.0,
+  "hier.well_quantile.rf.firing_rate": 0.00930774681004656,
+  "hier.well_quantile.rf.firing_rate.min": 0.0,
+  "hier.well_quantile.rf.firing_rate.max": 0.017306960821605172,
+  "hier.well_quantile.rf.mean_set_size": 1.9939997956061313,
+  "hier.well_quantile.rf.mean_set_size.min": 1.9774629136553823,
+  "hier.well_quantile.rf.mean_set_size.max": 2.0,
+  "hier.well_quantile.rf.singleton_rate": 0.006000204393869198,
+  "hier.well_quantile.rf.singleton_rate.min": 0.0,
+  "hier.well_quantile.rf.singleton_rate.max": 0.022537086344617725,
+  "hier.well_quantile.rf.abstention": 0.9941715640962062,
+  "hier.well_quantile.rf.abstention.min": 0.9782236591860023,
+  "hier.well_quantile.rf.abstention.max": 1.0,
+  "hier.well_quantile.rf.wrong_label_rate": 0.0015693438153907325,
+  "hier.well_quantile.rf.wrong_label_rate.min": 0.0,
+  "hier.well_quantile.rf.wrong_label_rate.max": 0.0033352952717284677,
+  "hier.well_quantile.rf.novelty_recall": 0.9498503457326987,
+  "hier.well_quantile.rf.novelty_recall.min": 0.8782051282051282,
+  "hier.well_quantile.rf.novelty_recall.max": 1.0,
+  "hier.well_quantile.rf.novelty_lift": -0.044321218363507484,
+  "hier.well_quantile.rf.novelty_lift.min": -0.11928417809950265,
+  "hier.well_quantile.rf.novelty_lift.max": 0.003433392191485196,
+  "hier.well_quantile.rf.n_infinite_tau": 1,
+  "hier.well_quantile.rf.K_cal_wells.min": 1,
+  "hier.well_balanced.rf.tau": 0.9932804959853911,
+  "hier.well_balanced.rf.tau.min": 0.9797970186918974,
+  "hier.well_balanced.rf.tau.max": 1.0,
+  "hier.well_balanced.rf.coverage": 0.9958894805248366,
+  "hier.well_balanced.rf.coverage.min": 0.9795424958155106,
+  "hier.well_balanced.rf.coverage.max": 1.0,
+  "hier.well_balanced.rf.coverage_well_mean": 0.9804583654827557,
+  "hier.well_balanced.rf.coverage_well_mean.min": 0.9027913279132791,
+  "hier.well_balanced.rf.coverage_well_mean.max": 1.0,
+  "hier.well_balanced.rf.share_wells_covered": 1.0,
+  "hier.well_balanced.rf.share_wells_covered.min": 1.0,
+  "hier.well_balanced.rf.share_wells_covered.max": 1.0,
+  "hier.well_balanced.rf.coverage_worst_well": 0.9944837547276573,
+  "hier.well_balanced.rf.coverage_worst_well.min": 0.9779132791327914,
+  "hier.well_balanced.rf.coverage_worst_well.max": 1.0,
+  "hier.well_balanced.rf.share_wells_firing_le_beta": 1.0,
+  "hier.well_balanced.rf.share_wells_firing_le_beta.min": 1.0,
+  "hier.well_balanced.rf.share_wells_firing_le_beta.max": 1.0,
+  "hier.well_balanced.rf.firing_rate": 0.004354061875634424,
+  "hier.well_balanced.rf.firing_rate.min": 0.0,
+  "hier.well_balanced.rf.firing_rate.max": 0.01360820554483599,
+  "hier.well_balanced.rf.mean_set_size": 1.994866605315612,
+  "hier.well_balanced.rf.mean_set_size.min": 1.974428119769388,
+  "hier.well_balanced.rf.mean_set_size.max": 2.0,
+  "hier.well_balanced.rf.singleton_rate": 0.005133394684387873,
+  "hier.well_balanced.rf.singleton_rate.min": 0.0,
+  "hier.well_balanced.rf.singleton_rate.max": 0.025571880230611865,
+  "hier.well_balanced.rf.abstention": 0.9948666053156121,
+  "hier.well_balanced.rf.abstention.min": 0.9744281197693881,
+  "hier.well_balanced.rf.abstention.max": 1.0,
+  "hier.well_balanced.rf.wrong_label_rate": 0.004110519475163398,
+  "hier.well_balanced.rf.wrong_label_rate.min": 0.0,
+  "hier.well_balanced.rf.wrong_label_rate.max": 0.02045750418448949,
+  "hier.well_balanced.rf.novelty_recall": 0.9116892911010559,
+  "hier.well_balanced.rf.novelty_recall.min": 0.6025641025641025,
+  "hier.well_balanced.rf.novelty_recall.max": 1.0,
+  "hier.well_balanced.rf.novelty_lift": -0.08317731421455632,
+  "hier.well_balanced.rf.novelty_lift.min": -0.3718640172052856,
+  "hier.well_balanced.rf.novelty_lift.max": 0.0,
+  "hier.well_balanced.rf.n_infinite_tau": 0,
+  "hier.well_balanced.rf.K_cal_wells.min": 1,
+  "hier.well_subsample.rf.tau": 0.9931213121423298,
+  "hier.well_subsample.rf.tau.min": 0.9797970186918974,
+  "hier.well_subsample.rf.tau.max": 1.0,
+  "hier.well_subsample.rf.coverage": 0.995184505466705,
+  "hier.well_subsample.rf.coverage.min": 0.980751348335503,
+  "hier.well_subsample.rf.coverage.max": 1.0,
+  "hier.well_subsample.rf.coverage_well_mean": 0.9798624172901675,
+  "hier.well_subsample.rf.coverage_well_mean.min": 0.9112330623306233,
+  "hier.well_subsample.rf.coverage_well_mean.max": 1.0,
+  "hier.well_subsample.rf.share_wells_covered": 0.9866666666666667,
+  "hier.well_subsample.rf.share_wells_covered.min": 0.9333333333333333,
+  "hier.well_subsample.rf.share_wells_covered.max": 1.0,
+  "hier.well_subsample.rf.coverage_worst_well": 0.9683269305220523,
+  "hier.well_subsample.rf.coverage_worst_well.min": 0.8681318681318682,
+  "hier.well_subsample.rf.coverage_worst_well.max": 1.0,
+  "hier.well_subsample.rf.share_wells_firing_le_beta": 0.9466666666666667,
+  "hier.well_subsample.rf.share_wells_firing_le_beta.min": 0.7333333333333333,
+  "hier.well_subsample.rf.share_wells_firing_le_beta.max": 1.0,
+  "hier.well_subsample.rf.firing_rate": 0.01414874463514817,
+  "hier.well_subsample.rf.firing_rate.min": 0.0001901863826550019,
+  "hier.well_subsample.rf.firing_rate.max": 0.0485207100591716,
+  "hier.well_subsample.rf.mean_set_size": 1.994136275717598,
+  "hier.well_subsample.rf.mean_set_size.min": 1.9761019155663009,
+  "hier.well_subsample.rf.mean_set_size.max": 2.0,
+  "hier.well_subsample.rf.singleton_rate": 0.005863724282401768,
+  "hier.well_subsample.rf.singleton_rate.min": 0.0,
+  "hier.well_subsample.rf.singleton_rate.max": 0.023898084433699087,
+  "hier.well_subsample.rf.abstention": 0.994941009445409,
+  "hier.well_subsample.rf.abstention.min": 0.9761019155663009,
+  "hier.well_subsample.rf.abstention.max": 1.0,
+  "hier.well_subsample.rf.wrong_label_rate": 0.004058098083590922,
+  "hier.well_subsample.rf.wrong_label_rate.min": 0.0,
+  "hier.well_subsample.rf.wrong_label_rate.max": 0.019248651664496932,
+  "hier.well_subsample.rf.novelty_recall": 0.9087238874766737,
+  "hier.well_subsample.rf.novelty_recall.min": 0.6025641025641025,
+  "hier.well_subsample.rf.novelty_recall.max": 1.0,
+  "hier.well_subsample.rf.novelty_lift": -0.08621712196873528,
+  "hier.well_subsample.rf.novelty_lift.min": -0.37353781300219835,
+  "hier.well_subsample.rf.novelty_lift.max": 0.0,
+  "hier.well_subsample.rf.n_infinite_tau": 0,
+  "hier.well_subsample.rf.K_cal_wells.min": 1,
+  "hier.well_quantile_d0.20.rf.tau": Infinity,
+  "hier.well_quantile_d0.20.rf.tau.min": 0.7876003235578537,
+  "hier.well_quantile_d0.20.rf.tau.max": Infinity,
+  "hier.well_quantile_d0.20.rf.coverage": 0.9797204746919146,
+  "hier.well_quantile_d0.20.rf.coverage.min": 0.9469964664310954,
+  "hier.well_quantile_d0.20.rf.coverage.max": 1.0,
+  "hier.well_quantile_d0.20.rf.coverage_well_mean": 0.8856533535987389,
+  "hier.well_quantile_d0.20.rf.coverage_well_mean.min": 0.7125589763084094,
+  "hier.well_quantile_d0.20.rf.coverage_well_mean.max": 1.0,
+  "hier.well_quantile_d0.20.rf.share_wells_covered": 0.8083333333333333,
+  "hier.well_quantile_d0.20.rf.share_wells_covered.min": 0.5,
+  "hier.well_quantile_d0.20.rf.share_wells_covered.max": 1.0,
+  "hier.well_quantile_d0.20.rf.coverage_worst_well": 0.8422412467175737,
+  "hier.well_quantile_d0.20.rf.coverage_worst_well.min": 0.6923076923076923,
+  "hier.well_quantile_d0.20.rf.coverage_worst_well.max": 1.0,
+  "hier.well_quantile_d0.20.rf.share_wells_firing_le_beta": 0.9166666666666666,
+  "hier.well_quantile_d0.20.rf.share_wells_firing_le_beta.min": 0.75,
+  "hier.well_quantile_d0.20.rf.share_wells_firing_le_beta.max": 1.0,
+  "hier.well_quantile_d0.20.rf.firing_rate": 0.011772679108074327,
+  "hier.well_quantile_d0.20.rf.firing_rate.min": 0.0,
+  "hier.well_quantile_d0.20.rf.firing_rate.max": 0.02225180677063522,
+  "hier.well_quantile_d0.20.rf.mean_set_size": 1.9010583245088424,
+  "hier.well_quantile_d0.20.rf.mean_set_size.min": 1.75114111829593,
+  "hier.well_quantile_d0.20.rf.mean_set_size.max": 2.0,
+  "hier.well_quantile_d0.20.rf.singleton_rate": 0.09894167549115786,
+  "hier.well_quantile_d0.20.rf.singleton_rate.min": 0.0,
+  "hier.well_quantile_d0.20.rf.singleton_rate.max": 0.24885888170407,
+  "hier.well_quantile_d0.20.rf.abstention": 0.902237264397796,
+  "hier.well_quantile_d0.20.rf.abstention.min": 0.7538037276531,
+  "hier.well_quantile_d0.20.rf.abstention.max": 1.0,
+  "hier.well_quantile_d0.20.rf.wrong_label_rate": 0.019119604057397044,
+  "hier.well_quantile_d0.20.rf.wrong_label_rate.min": 0.0,
+  "hier.well_quantile_d0.20.rf.wrong_label_rate.max": 0.05291054491352055,
+  "hier.well_quantile_d0.20.rf.novelty_recall": 0.7146541693600517,
+  "hier.well_quantile_d0.20.rf.novelty_recall.min": 0.38461538461538464,
+  "hier.well_quantile_d0.20.rf.novelty_recall.max": 1.0,
+  "hier.well_quantile_d0.20.rf.novelty_lift": -0.18758309503774426,
+  "hier.well_quantile_d0.20.rf.novelty_lift.min": -0.5334616099912735,
+  "hier.well_quantile_d0.20.rf.novelty_lift.max": 0.05501980175866472,
+  "hier.well_quantile_d0.20.rf.n_infinite_tau": 1,
+  "hier.well_quantile_d0.20.rf.K_cal_wells.min": 1,
+  "hier.well_quantile_d0.30.rf.tau": Infinity,
+  "hier.well_quantile_d0.30.rf.tau.min": 0.6606630980968475,
+  "hier.well_quantile_d0.30.rf.tau.max": Infinity,
+  "hier.well_quantile_d0.30.rf.coverage": 0.9582972460240506,
+  "hier.well_quantile_d0.30.rf.coverage.min": 0.9025478891575228,
+  "hier.well_quantile_d0.30.rf.coverage.max": 1.0,
+  "hier.well_quantile_d0.30.rf.coverage_well_mean": 0.8452340052731355,
+  "hier.well_quantile_d0.30.rf.coverage_well_mean.min": 0.6053702915069293,
+  "hier.well_quantile_d0.30.rf.coverage_well_mean.max": 1.0,
+  "hier.well_quantile_d0.30.rf.share_wells_covered": 0.775,
+  "hier.well_quantile_d0.30.rf.share_wells_covered.min": 0.5,
+  "hier.well_quantile_d0.30.rf.share_wells_covered.max": 1.0,
+  "hier.well_quantile_d0.30.rf.coverage_worst_well": 0.7638534938678411,
+  "hier.well_quantile_d0.30.rf.coverage_worst_well.min": 0.5054945054945055,
+  "hier.well_quantile_d0.30.rf.coverage_worst_well.max": 1.0,
+  "hier.well_quantile_d0.30.rf.share_wells_firing_le_beta": 0.8833333333333334,
+  "hier.well_quantile_d0.30.rf.share_wells_firing_le_beta.min": 0.75,
+  "hier.well_quantile_d0.30.rf.share_wells_firing_le_beta.max": 1.0,
+  "hier.well_quantile_d0.30.rf.firing_rate": 0.03167388407406845,
+  "hier.well_quantile_d0.30.rf.firing_rate.min": 0.0,
+  "hier.well_quantile_d0.30.rf.firing_rate.max": 0.08499163102101544,
+  "hier.well_quantile_d0.30.rf.mean_set_size": 1.714669506078632,
+  "hier.well_quantile_d0.30.rf.mean_set_size.min": 1.3743818942563713,
+  "hier.well_quantile_d0.30.rf.mean_set_size.max": 2.0,
+  "hier.well_quantile_d0.30.rf.singleton_rate": 0.285330493921368,
+  "hier.well_quantile_d0.30.rf.singleton_rate.min": 0.0,
+  "hier.well_quantile_d0.30.rf.singleton_rate.max": 0.6256181057436287,
+  "hier.well_quantile_d0.30.rf.abstention": 0.7287427724728363,
+  "hier.well_quantile_d0.30.rf.abstention.min": 0.3897869912514264,
+  "hier.well_quantile_d0.30.rf.abstention.max": 1.0,
+  "hier.well_quantile_d0.30.rf.wrong_label_rate": 0.030622337787086167,
+  "hier.well_quantile_d0.30.rf.wrong_label_rate.min": 0.0,
+  "hier.well_quantile_d0.30.rf.wrong_label_rate.max": 0.0598136173449981,
+  "hier.well_quantile_d0.30.rf.novelty_recall": 0.7901569019216079,
+  "hier.well_quantile_d0.30.rf.novelty_recall.min": 0.45588235294117646,
+  "hier.well_quantile_d0.30.rf.novelty_recall.max": 1.0,
+  "hier.well_quantile_d0.30.rf.novelty_lift": 0.06141412944877158,
+  "hier.well_quantile_d0.30.rf.novelty_lift.min": -0.17755227726491096,
+  "hier.well_quantile_d0.30.rf.novelty_lift.max": 0.2498783994506516,
+  "hier.well_quantile_d0.30.rf.n_infinite_tau": 1,
+  "hier.well_quantile_d0.30.rf.K_cal_wells.min": 1,
+  "hier.window.tr.tau": 0.6200091630220413,
+  "hier.window.tr.tau.min": 0.49816495180130005,
+  "hier.window.tr.tau.max": 0.8073079735040665,
+  "hier.window.tr.coverage": 0.8931669104753587,
+  "hier.window.tr.coverage.min": 0.8415384615384616,
+  "hier.window.tr.coverage.max": 0.9713769494104222,
+  "hier.window.tr.coverage_well_mean": 0.7763991236374127,
+  "hier.window.tr.coverage_well_mean.min": 0.5876254094568216,
+  "hier.window.tr.coverage_well_mean.max": 0.9043739123575084,
+  "hier.window.tr.share_wells_covered": 0.5066666666666666,
+  "hier.window.tr.share_wells_covered.min": 0.25,
+  "hier.window.tr.share_wells_covered.max": 0.75,
+  "hier.window.tr.coverage_worst_well": 0.4795584493272,
+  "hier.window.tr.coverage_worst_well.min": 0.21978021978021978,
+  "hier.window.tr.coverage_worst_well.max": 0.6428571428571429,
+  "hier.window.tr.share_wells_firing_le_beta": 0.8416666666666666,
+  "hier.window.tr.share_wells_firing_le_beta.min": 0.6666666666666666,
+  "hier.window.tr.share_wells_firing_le_beta.max": 1.0,
+  "hier.window.tr.firing_rate": 0.040225117853234724,
+  "hier.window.tr.firing_rate.min": 0.008082921262837581,
+  "hier.window.tr.firing_rate.max": 0.1021301775147929,
+  "hier.window.tr.mean_set_size": 1.1377334026708137,
+  "hier.window.tr.mean_set_size.min": 0.998234255444379,
+  "hier.window.tr.mean_set_size.max": 1.3414796500570558,
+  "hier.window.tr.singleton_rate": 0.8615602995069379,
+  "hier.window.tr.singleton_rate.min": 0.6585203499429441,
+  "hier.window.tr.singleton_rate.max": 0.998234255444379,
+  "hier.window.tr.abstention": 0.17603651476897,
+  "hier.window.tr.abstention.min": 0.028153815970178537,
+  "hier.window.tr.abstention.max": 0.3467097755800685,
+  "hier.window.tr.wrong_label_rate": 0.0863799326885657,
+  "hier.window.tr.wrong_label_rate.min": 0.023868391023202738,
+  "hier.window.tr.wrong_label_rate.max": 0.11266272189349112,
+  "hier.window.tr.novelty_recall": 0.44705520454284875,
+  "hier.window.tr.novelty_recall.min": 0.11764705882352941,
+  "hier.window.tr.novelty_recall.max": 0.6309719934102141,
+  "hier.window.tr.novelty_lift": 0.27101868977387866,
+  "hier.window.tr.novelty_lift.min": 0.03564316559640207,
+  "hier.window.tr.novelty_lift.max": 0.4433663624889379,
+  "hier.window.tr.n_infinite_tau": 0,
+  "hier.window.tr.K_cal_wells.min": 1,
+  "hier.well_quantile.tr.tau": Infinity,
+  "hier.well_quantile.tr.tau.min": 0.9797606151551008,
+  "hier.well_quantile.tr.tau.max": Infinity,
+  "hier.well_quantile.tr.coverage": 0.9963122671520788,
+  "hier.well_quantile.tr.coverage.min": 0.9880321757896802,
+  "hier.well_quantile.tr.coverage.max": 1.0,
+  "hier.well_quantile.tr.coverage_well_mean": 0.9842515001713725,
+  "hier.well_quantile.tr.coverage_well_mean.min": 0.9645282559075663,
+  "hier.well_quantile.tr.coverage_well_mean.max": 1.0,
+  "hier.well_quantile.tr.share_wells_covered": 0.9166666666666666,
+  "hier.well_quantile.tr.share_wells_covered.min": 0.75,
+  "hier.well_quantile.tr.share_wells_covered.max": 1.0,
+  "hier.well_quantile.tr.coverage_worst_well": 0.9051623832556895,
+  "hier.well_quantile.tr.coverage_worst_well.min": 0.7417582417582418,
+  "hier.well_quantile.tr.coverage_worst_well.max": 1.0,
+  "hier.well_quantile.tr.share_wells_firing_le_beta": 1.0,
+  "hier.well_quantile.tr.share_wells_firing_le_beta.min": 1.0,
+  "hier.well_quantile.tr.share_wells_firing_le_beta.max": 1.0,
+  "hier.well_quantile.tr.firing_rate": 0.006262034245176877,
+  "hier.well_quantile.tr.firing_rate.min": 0.0,
+  "hier.well_quantile.tr.firing_rate.max": 0.015334619681121153,
+  "hier.well_quantile.tr.mean_set_size": 1.9955462130819228,
+  "hier.well_quantile.tr.mean_set_size.min": 1.9879340788699236,
+  "hier.well_quantile.tr.mean_set_size.max": 2.0,
+  "hier.well_quantile.tr.singleton_rate": 0.004453786918077107,
+  "hier.well_quantile.tr.singleton_rate.min": 0.0,
+  "hier.well_quantile.tr.singleton_rate.max": 0.012065921130076516,
+  "hier.well_quantile.tr.abstention": 0.9974486671943332,
+  "hier.well_quantile.tr.abstention.min": 0.9943103786541103,
+  "hier.well_quantile.tr.abstention.max": 1.0,
+  "hier.well_quantile.tr.wrong_label_rate": 0.001880371926838599,
+  "hier.well_quantile.tr.wrong_label_rate.min": 0.0,
+  "hier.well_quantile.tr.wrong_label_rate.max": 0.005591524426133019,
+  "hier.well_quantile.tr.novelty_recall": 0.9278327554798143,
+  "hier.well_quantile.tr.novelty_recall.min": 0.8461538461538461,
+  "hier.well_quantile.tr.novelty_recall.max": 1.0,
+  "hier.well_quantile.tr.novelty_lift": -0.0696159117145188,
+  "hier.well_quantile.tr.novelty_lift.min": -0.1504055735969443,
+  "hier.well_quantile.tr.novelty_lift.max": 0.0003420277630019619,
+  "hier.well_quantile.tr.n_infinite_tau": 1,
+  "hier.well_quantile.tr.K_cal_wells.min": 1,
+  "hier.well_balanced.tr.tau": 0.9966459340812432,
+  "hier.well_balanced.tr.tau.min": 0.9897254593670368,
+  "hier.well_balanced.tr.tau.max": 0.999999999990904,
+  "hier.well_balanced.tr.coverage": 0.9959894290424731,
+  "hier.well_balanced.tr.coverage.min": 0.9861538461538462,
+  "hier.well_balanced.tr.coverage.max": 1.0,
+  "hier.well_balanced.tr.coverage_well_mean": 0.9814011247101652,
+  "hier.well_balanced.tr.coverage_well_mean.min": 0.953982338099243,
+  "hier.well_balanced.tr.coverage_well_mean.max": 1.0,
+  "hier.well_balanced.tr.share_wells_covered": 0.9866666666666667,
+  "hier.well_balanced.tr.share_wells_covered.min": 0.9333333333333333,
+  "hier.well_balanced.tr.share_wells_covered.max": 1.0,
+  "hier.well_balanced.tr.coverage_worst_well": 0.9122584312239486,
+  "hier.well_balanced.tr.coverage_worst_well.min": 0.7032967032967034,
+  "hier.well_balanced.tr.coverage_worst_well.max": 1.0,
+  "hier.well_balanced.tr.share_wells_firing_le_beta": 0.9666666666666668,
+  "hier.well_balanced.tr.share_wells_firing_le_beta.min": 0.8333333333333334,
+  "hier.well_balanced.tr.share_wells_firing_le_beta.max": 1.0,
+  "hier.well_balanced.tr.firing_rate": 0.0011402959114101626,
+  "hier.well_balanced.tr.firing_rate.min": 0.0,
+  "hier.well_balanced.tr.firing_rate.max": 0.002696671006137251,
+  "hier.well_balanced.tr.mean_set_size": 1.9894613520597837,
+  "hier.well_balanced.tr.mean_set_size.min": 1.9723076923076923,
+  "hier.well_balanced.tr.mean_set_size.max": 2.0,
+  "hier.well_balanced.tr.singleton_rate": 0.010538647940216531,
+  "hier.well_balanced.tr.singleton_rate.min": 0.0,
+  "hier.well_balanced.tr.singleton_rate.max": 0.027692307692307693,
+  "hier.well_balanced.tr.abstention": 0.9896912816415107,
+  "hier.well_balanced.tr.abstention.min": 0.9728994082840237,
+  "hier.well_balanced.tr.abstention.max": 1.0,
+  "hier.well_balanced.tr.wrong_label_rate": 0.003780641375799837,
+  "hier.well_balanced.tr.wrong_label_rate.min": 0.0,
+  "hier.well_balanced.tr.wrong_label_rate.max": 0.013254437869822486,
+  "hier.well_balanced.tr.novelty_recall": 0.8945697996482955,
+  "hier.well_balanced.tr.novelty_recall.min": 0.7339743589743589,
+  "hier.well_balanced.tr.novelty_recall.max": 1.0,
+  "hier.well_balanced.tr.novelty_lift": -0.09512148199321498,
+  "hier.well_balanced.tr.novelty_lift.min": -0.24519618221961537,
+  "hier.well_balanced.tr.novelty_lift.max": 0.0,
+  "hier.well_balanced.tr.n_infinite_tau": 0,
+  "hier.well_balanced.tr.K_cal_wells.min": 1,
+  "hier.well_subsample.tr.tau": 0.9911647060023823,
+  "hier.well_subsample.tr.tau.min": 0.9629317857325077,
+  "hier.well_subsample.tr.tau.max": 0.999999999990904,
+  "hier.well_subsample.tr.coverage": 0.9929074373296476,
+  "hier.well_subsample.tr.coverage.min": 0.9711242603550296,
+  "hier.well_subsample.tr.coverage.max": 1.0,
+  "hier.well_subsample.tr.coverage_well_mean": 0.9705326846914829,
+  "hier.well_subsample.tr.coverage_well_mean.min": 0.9188702831335769,
+  "hier.well_subsample.tr.coverage_well_mean.max": 1.0,
+  "hier.well_subsample.tr.share_wells_covered": 0.9483333333333335,
+  "hier.well_subsample.tr.share_wells_covered.min": 0.8666666666666667,
+  "hier.well_subsample.tr.share_wells_covered.max": 1.0,
+  "hier.well_subsample.tr.coverage_worst_well": 0.8898446381205002,
+  "hier.well_subsample.tr.coverage_worst_well.min": 0.6043956043956044,
+  "hier.well_subsample.tr.coverage_worst_well.max": 1.0,
+  "hier.well_subsample.tr.share_wells_firing_le_beta": 0.9133333333333333,
+  "hier.well_subsample.tr.share_wells_firing_le_beta.min": 0.7333333333333333,
+  "hier.well_subsample.tr.share_wells_firing_le_beta.max": 1.0,
+  "hier.well_subsample.tr.firing_rate": 0.01173834757588039,
+  "hier.well_subsample.tr.firing_rate.min": 0.0006866784382970375,
+  "hier.well_subsample.tr.firing_rate.max": 0.05207100591715976,
+  "hier.well_subsample.tr.mean_set_size": 1.9835864609386742,
+  "hier.well_subsample.tr.mean_set_size.min": 1.9433136094674557,
+  "hier.well_subsample.tr.mean_set_size.max": 2.0,
+  "hier.well_subsample.tr.singleton_rate": 0.01641353906132587,
+  "hier.well_subsample.tr.singleton_rate.min": 0.0,
+  "hier.well_subsample.tr.singleton_rate.max": 0.05668639053254438,
+  "hier.well_subsample.tr.abstention": 0.9901507021481383,
+  "hier.well_subsample.tr.abstention.min": 0.9744378698224853,
+  "hier.well_subsample.tr.abstention.max": 1.0,
+  "hier.well_subsample.tr.wrong_label_rate": 0.0035105699815982543,
+  "hier.well_subsample.tr.wrong_label_rate.min": 0.0,
+  "hier.well_subsample.tr.wrong_label_rate.max": 0.012662721893491125,
+  "hier.well_subsample.tr.novelty_recall": 0.920978676329001,
+  "hier.well_subsample.tr.novelty_recall.min": 0.75,
+  "hier.well_subsample.tr.novelty_recall.max": 1.0,
+  "hier.well_subsample.tr.novelty_lift": -0.06917202581913724,
+  "hier.well_subsample.tr.novelty_lift.min": -0.22926352984935838,
+  "hier.well_subsample.tr.novelty_lift.max": 0.0,
+  "hier.well_subsample.tr.n_infinite_tau": 0,
+  "hier.well_subsample.tr.K_cal_wells.min": 1,
+  "hier.well_quantile_d0.20.tr.tau": Infinity,
+  "hier.well_quantile_d0.20.tr.tau.min": 0.9215228036046028,
+  "hier.well_quantile_d0.20.tr.tau.max": Infinity,
+  "hier.well_quantile_d0.20.tr.coverage": 0.9901306503705005,
+  "hier.well_quantile_d0.20.tr.coverage.min": 0.9770453207769276,
+  "hier.well_quantile_d0.20.tr.coverage.max": 1.0,
+  "hier.well_quantile_d0.20.tr.coverage_well_mean": 0.9204685036841237,
+  "hier.well_quantile_d0.20.tr.coverage_well_mean.min": 0.8542686731420206,
+  "hier.well_quantile_d0.20.tr.coverage_well_mean.max": 1.0,
+  "hier.well_quantile_d0.20.tr.share_wells_covered": 0.8833333333333334,
+  "hier.well_quantile_d0.20.tr.share_wells_covered.min": 0.75,
+  "hier.well_quantile_d0.20.tr.share_wells_covered.max": 1.0,
+  "hier.well_quantile_d0.20.tr.coverage_worst_well": 0.8158304170474556,
+  "hier.well_quantile_d0.20.tr.coverage_worst_well.min": 0.532967032967033,
+  "hier.well_quantile_d0.20.tr.coverage_worst_well.max": 1.0,
+  "hier.well_quantile_d0.20.tr.share_wells_firing_le_beta": 0.9166666666666666,
+  "hier.well_quantile_d0.20.tr.share_wells_firing_le_beta.min": 0.75,
+  "hier.well_quantile_d0.20.tr.share_wells_firing_le_beta.max": 1.0,
+  "hier.well_quantile_d0.20.tr.firing_rate": 0.010914080324600214,
+  "hier.well_quantile_d0.20.tr.firing_rate.min": 0.0,
+  "hier.well_quantile_d0.20.tr.firing_rate.max": 0.02092050209205021,
+  "hier.well_quantile_d0.20.tr.mean_set_size": 1.9710121945394063,
+  "hier.well_quantile_d0.20.tr.mean_set_size.min": 1.9112888227636229,
+  "hier.well_quantile_d0.20.tr.mean_set_size.max": 2.0,
+  "hier.well_quantile_d0.20.tr.singleton_rate": 0.02898780546059366,
+  "hier.well_quantile_d0.20.tr.singleton_rate.min": 0.0,
+  "hier.well_quantile_d0.20.tr.singleton_rate.max": 0.08871117723637716,
+  "hier.well_quantile_d0.20.tr.abstention": 0.9749519462555529,
+  "hier.well_quantile_d0.20.tr.abstention.min": 0.9113818114190069,
+  "hier.well_quantile_d0.20.tr.abstention.max": 1.0,
+  "hier.well_quantile_d0.20.tr.wrong_label_rate": 0.00602469110468059,
+  "hier.well_quantile_d0.20.tr.wrong_label_rate.min": 0.0,
+  "hier.well_quantile_d0.20.tr.wrong_label_rate.max": 0.011995536544541566,
+  "hier.well_quantile_d0.20.tr.novelty_recall": 0.7609380815263168,
+  "hier.well_quantile_d0.20.tr.novelty_recall.min": 0.4358974358974359,
+  "hier.well_quantile_d0.20.tr.novelty_recall.max": 1.0,
+  "hier.well_quantile_d0.20.tr.novelty_lift": -0.21401386472923606,
+  "hier.well_quantile_d0.20.tr.novelty_lift.min": -0.47548437552157097,
+  "hier.well_quantile_d0.20.tr.novelty_lift.max": 0.0,
+  "hier.well_quantile_d0.20.tr.n_infinite_tau": 1,
+  "hier.well_quantile_d0.20.tr.K_cal_wells.min": 1,
+  "hier.well_quantile_d0.30.tr.tau": Infinity,
+  "hier.well_quantile_d0.30.tr.tau.min": 0.5860524773597717,
+  "hier.well_quantile_d0.30.tr.tau.max": Infinity,
+  "hier.well_quantile_d0.30.tr.coverage": 0.9669496507722958,
+  "hier.well_quantile_d0.30.tr.coverage.min": 0.9162252305277614,
+  "hier.well_quantile_d0.30.tr.coverage.max": 1.0,
+  "hier.well_quantile_d0.30.tr.coverage_well_mean": 0.8644060581876601,
+  "hier.well_quantile_d0.30.tr.coverage_well_mean.min": 0.7594499553612511,
+  "hier.well_quantile_d0.30.tr.coverage_well_mean.max": 1.0,
+  "hier.well_quantile_d0.30.tr.share_wells_covered": 0.7333333333333334,
+  "hier.well_quantile_d0.30.tr.share_wells_covered.min": 0.3333333333333333,
+  "hier.well_quantile_d0.30.tr.share_wells_covered.max": 1.0,
+  "hier.well_quantile_d0.30.tr.coverage_worst_well": 0.705179100818046,
+  "hier.well_quantile_d0.30.tr.coverage_worst_well.min": 0.3076923076923077,
+  "hier.well_quantile_d0.30.tr.coverage_worst_well.max": 1.0,
+  "hier.well_quantile_d0.30.tr.share_wells_firing_le_beta": 0.8833333333333334,
+  "hier.well_quantile_d0.30.tr.share_wells_firing_le_beta.min": 0.75,
+  "hier.well_quantile_d0.30.tr.share_wells_firing_le_beta.max": 1.0,
+  "hier.well_quantile_d0.30.tr.firing_rate": 0.0229907570742195,
+  "hier.well_quantile_d0.30.tr.firing_rate.min": 0.0,
+  "hier.well_quantile_d0.30.tr.firing_rate.max": 0.037753394085921516,
+  "hier.well_quantile_d0.30.tr.mean_set_size": 1.6175308267654542,
+  "hier.well_quantile_d0.30.tr.mean_set_size.min": 1.0814204433980772,
+  "hier.well_quantile_d0.30.tr.mean_set_size.max": 2.0,
+  "hier.well_quantile_d0.30.tr.singleton_rate": 0.3824691732345457,
+  "hier.well_quantile_d0.30.tr.singleton_rate.min": 0.0,
+  "hier.well_quantile_d0.30.tr.singleton_rate.max": 0.9185795566019227,
+  "hier.well_quantile_d0.30.tr.abstention": 0.6351129501876506,
+  "hier.well_quantile_d0.30.tr.abstention.min": 0.1093780655287424,
+  "hier.well_quantile_d0.30.tr.abstention.max": 1.0,
+  "hier.well_quantile_d0.30.tr.wrong_label_rate": 0.022239526847499212,
+  "hier.well_quantile_d0.30.tr.wrong_label_rate.min": 0.0,
+  "hier.well_quantile_d0.30.tr.wrong_label_rate.max": 0.05983912105159898,
+  "hier.well_quantile_d0.30.tr.novelty_recall": 0.6354154668860551,
+  "hier.well_quantile_d0.30.tr.novelty_recall.min": 0.35294117647058826,
+  "hier.well_quantile_d0.30.tr.novelty_recall.max": 1.0,
+  "hier.well_quantile_d0.30.tr.novelty_lift": 0.0003025166984044758,
+  "hier.well_quantile_d0.30.tr.novelty_lift.min": -0.4634895722739737,
+  "hier.well_quantile_d0.30.tr.novelty_lift.max": 0.24356311094184585,
+  "hier.well_quantile_d0.30.tr.n_infinite_tau": 1,
+  "hier.well_quantile_d0.30.tr.K_cal_wells.min": 1
+ },
+ "rows": [
+  {
+   "seed": 0,
+   "arm": "rf",
+   "method": "window",
+   "tau": 0.9300838336348534,
+   "rho": 1.8013172149658203,
+   "K_cal_wells": 1,
+   "coverage": 0.9494674556213017,
+   "coverage_well_mean": 0.8696999522314812,
+   "share_wells_covered": 0.8666666666666667,
+   "coverage_worst_well": 0.5274725274725275,
+   "share_wells_firing_le_beta": 0.5333333333333333,
+   "firing_rate": 0.15254437869822485,
+   "mean_set_size": 1.8609467455621302,
+   "singleton_rate": 0.1390532544378698,
+   "empty_set_rate": 0.0,
+   "abstention": 0.9293491124260355,
+   "wrong_label_rate": 0.01988165680473373,
+   "novelty_recall": 0.9934102141680395,
+   "novelty_lift": 0.06406110174200408,
+   "n_wells_summarized": 15,
+   "wells": [
+    {
+     "well": 3,
+     "n": 1672,
+     "coverage": 0.9868421052631579,
+     "firing": 0.019138755980861243,
+     "set_size": 1.9784688995215312
+    },
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 0.9978804578211107,
+     "firing": 0.12632471386180585,
+     "set_size": 1.8825773632895295
+    },
+    {
+     "well": 7,
+     "n": 515,
+     "coverage": 0.9087378640776699,
+     "firing": 0.5980582524271845,
+     "set_size": 1.4757281553398058
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.2,
+     "set_size": 1.8
+    },
+    {
+     "well": 11,
+     "n": 307,
+     "coverage": 0.9120521172638436,
+     "firing": 0.02280130293159609,
+     "set_size": 1.9055374592833876
+    },
+    {
+     "well": 12,
+     "n": 65,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.9846153846153847
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 0.9583333333333334,
+     "firing": 0.0,
+     "set_size": 1.875
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 1.0,
+     "firing": 0.5344827586206896,
+     "set_size": 1.7155172413793103
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 0.5274725274725275,
+     "firing": 0.521978021978022,
+     "set_size": 1.4065934065934067
+    },
+    {
+     "well": 19,
+     "n": 300,
+     "coverage": 0.8233333333333334,
+     "firing": 0.6233333333333333,
+     "set_size": 1.82
+    },
+    {
+     "well": 20,
+     "n": 327,
+     "coverage": 0.9143730886850153,
+     "firing": 0.1437308868501529,
+     "set_size": 1.7003058103975535
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.9846153846153847
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "coverage": 1.0,
+     "firing": 0.12083333333333333,
+     "set_size": 2.0
+    },
+    {
+     "well": 24,
+     "n": 748,
+     "coverage": 1.0,
+     "firing": 0.08021390374331551,
+     "set_size": 1.981283422459893
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 0.03333333333333333,
+     "firing": 1.0,
+     "set_size": 1.0333333333333334
+    },
+    {
+     "well": 29,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.016666666666666666,
+     "firing": 0.55,
+     "set_size": 1.0166666666666666
+    },
+    {
+     "well": 32,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 37,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.6666666666666667
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.041666666666666664,
+     "set_size": 2.0
+    },
+    {
+     "well": 39,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 40,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "coverage": 0.924074074074074,
+     "firing": 0.05925925925925926,
+     "set_size": 1.837037037037037
+    }
+   ]
+  },
+  {
+   "seed": 0,
+   "arm": "rf",
+   "method": "well_quantile",
+   "tau": Infinity,
+   "rho": Infinity,
+   "K_cal_wells": 1,
+   "coverage": 1.0,
+   "coverage_well_mean": 1.0,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 1.0,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.0,
+   "mean_set_size": 2.0,
+   "singleton_rate": 0.0,
+   "empty_set_rate": 0.0,
+   "abstention": 1.0,
+   "wrong_label_rate": 0.0,
+   "novelty_recall": 1.0,
+   "novelty_lift": 0.0,
+   "n_wells_summarized": 15,
+   "wells": [
+    {
+     "well": 3,
+     "n": 1672,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 7,
+     "n": 515,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 11,
+     "n": 307,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 12,
+     "n": 65,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 19,
+     "n": 300,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 20,
+     "n": 327,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 24,
+     "n": 748,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 29,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 32,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 37,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 39,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 40,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    }
+   ]
+  },
+  {
+   "seed": 0,
+   "arm": "rf",
+   "method": "well_balanced",
+   "tau": 1.0,
+   "rho": 3635.336181640625,
+   "K_cal_wells": 1,
+   "coverage": 1.0,
+   "coverage_well_mean": 1.0,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 1.0,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.00023668639053254438,
+   "mean_set_size": 2.0,
+   "singleton_rate": 0.0,
+   "empty_set_rate": 0.0,
+   "abstention": 1.0,
+   "wrong_label_rate": 0.0,
+   "novelty_recall": 1.0,
+   "novelty_lift": 0.0,
+   "n_wells_summarized": 15,
+   "wells": [
+    {
+     "well": 3,
+     "n": 1672,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 7,
+     "n": 515,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 11,
+     "n": 307,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 12,
+     "n": 65,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 1.0,
+     "firing": 0.005494505494505495,
+     "set_size": 2.0
+    },
+    {
+     "well": 19,
+     "n": 300,
+     "coverage": 1.0,
+     "firing": 0.0033333333333333335,
+     "set_size": 2.0
+    },
+    {
+     "well": 20,
+     "n": 327,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 24,
+     "n": 748,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 29,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 32,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 37,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 39,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 40,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    }
+   ]
+  },
+  {
+   "seed": 0,
+   "arm": "rf",
+   "method": "well_subsample",
+   "tau": 0.9984320004004985,
+   "rho": 22.826732635498047,
+   "K_cal_wells": 1,
+   "coverage": 0.9952662721893492,
+   "coverage_well_mean": 0.9885785246197145,
+   "share_wells_covered": 0.9333333333333333,
+   "coverage_worst_well": 0.8681318681318682,
+   "share_wells_firing_le_beta": 0.7333333333333333,
+   "firing_rate": 0.0485207100591716,
+   "mean_set_size": 1.9946745562130177,
+   "singleton_rate": 0.0053254437869822485,
+   "empty_set_rate": 0.0,
+   "abstention": 0.998698224852071,
+   "wrong_label_rate": 0.0009467455621301775,
+   "novelty_recall": 0.985172981878089,
+   "novelty_lift": -0.013525242973982055,
+   "n_wells_summarized": 15,
+   "wells": [
+    {
+     "well": 3,
+     "n": 1672,
+     "coverage": 0.9988038277511961,
+     "firing": 0.006578947368421052,
+     "set_size": 1.9976076555023923
+    },
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 7,
+     "n": 515,
+     "coverage": 1.0,
+     "firing": 0.1650485436893204,
+     "set_size": 1.9941747572815534
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.16,
+     "set_size": 2.0
+    },
+    {
+     "well": 11,
+     "n": 307,
+     "coverage": 1.0,
+     "firing": 0.009771986970684038,
+     "set_size": 2.0
+    },
+    {
+     "well": 12,
+     "n": 65,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 1.0,
+     "firing": 0.3620689655172414,
+     "set_size": 2.0
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 0.8681318681318682,
+     "firing": 0.3021978021978022,
+     "set_size": 1.8681318681318682
+    },
+    {
+     "well": 19,
+     "n": 300,
+     "coverage": 1.0,
+     "firing": 0.48333333333333334,
+     "set_size": 2.0
+    },
+    {
+     "well": 20,
+     "n": 327,
+     "coverage": 1.0,
+     "firing": 0.01529051987767584,
+     "set_size": 2.0
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 24,
+     "n": 748,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 0.95,
+     "firing": 0.6666666666666666,
+     "set_size": 1.95
+    },
+    {
+     "well": 29,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.9333333333333333,
+     "firing": 0.0,
+     "set_size": 1.9333333333333333
+    },
+    {
+     "well": 32,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 37,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.008333333333333333,
+     "set_size": 2.0
+    },
+    {
+     "well": 39,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 40,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "coverage": 0.987037037037037,
+     "firing": 0.03518518518518519,
+     "set_size": 1.987037037037037
+    }
+   ]
+  },
+  {
+   "seed": 0,
+   "arm": "rf",
+   "method": "well_quantile_d0.20",
+   "tau": Infinity,
+   "rho": Infinity,
+   "K_cal_wells": 1,
+   "coverage": 1.0,
+   "coverage_well_mean": 1.0,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 1.0,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.0,
+   "mean_set_size": 2.0,
+   "singleton_rate": 0.0,
+   "empty_set_rate": 0.0,
+   "abstention": 1.0,
+   "wrong_label_rate": 0.0,
+   "novelty_recall": 1.0,
+   "novelty_lift": 0.0,
+   "n_wells_summarized": 15,
+   "wells": [
+    {
+     "well": 3,
+     "n": 1672,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 7,
+     "n": 515,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 11,
+     "n": 307,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 12,
+     "n": 65,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 19,
+     "n": 300,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 20,
+     "n": 327,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 24,
+     "n": 748,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 29,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 32,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 37,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 39,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 40,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    }
+   ]
+  },
+  {
+   "seed": 0,
+   "arm": "rf",
+   "method": "well_quantile_d0.30",
+   "tau": Infinity,
+   "rho": Infinity,
+   "K_cal_wells": 1,
+   "coverage": 1.0,
+   "coverage_well_mean": 1.0,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 1.0,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.0,
+   "mean_set_size": 2.0,
+   "singleton_rate": 0.0,
+   "empty_set_rate": 0.0,
+   "abstention": 1.0,
+   "wrong_label_rate": 0.0,
+   "novelty_recall": 1.0,
+   "novelty_lift": 0.0,
+   "n_wells_summarized": 15,
+   "wells": [
+    {
+     "well": 3,
+     "n": 1672,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 7,
+     "n": 515,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 11,
+     "n": 307,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 12,
+     "n": 65,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 19,
+     "n": 300,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 20,
+     "n": 327,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 24,
+     "n": 748,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 29,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 32,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 37,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 39,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 40,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    }
+   ],
+   "cal_wells": [
+    {
+     "well": 1,
+     "n": 7380,
+     "n_fault": 1680,
+     "q": 0.929886594414711,
+     "error_rate": 0.2668021680216802
+    }
+   ]
+  },
+  {
+   "seed": 0,
+   "arm": "transformer",
+   "method": "window",
+   "tau": 0.6277683675289154,
+   "rho": 13.962608337402344,
+   "K_cal_wells": 1,
+   "coverage": 0.8415384615384616,
+   "coverage_well_mean": 0.8164451389537403,
+   "share_wells_covered": 0.5333333333333333,
+   "coverage_worst_well": 0.34615384615384615,
+   "share_wells_firing_le_beta": 0.6666666666666666,
+   "firing_rate": 0.1021301775147929,
+   "mean_set_size": 1.1233136094674556,
+   "singleton_rate": 0.8766863905325444,
+   "empty_set_rate": 0.0,
+   "abstention": 0.2169230769230769,
+   "wrong_label_rate": 0.11266272189349112,
+   "novelty_recall": 0.6309719934102141,
+   "novelty_lift": 0.41404891648713726,
+   "n_wells_summarized": 15,
+   "wells": [
+    {
+     "well": 3,
+     "n": 1672,
+     "coverage": 0.9898325358851675,
+     "firing": 0.019736842105263157,
+     "set_size": 1.0077751196172249
+    },
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 0.7295464179737177,
+     "firing": 0.03221704111911827,
+     "set_size": 1.2501059771089444
+    },
+    {
+     "well": 7,
+     "n": 515,
+     "coverage": 0.9398058252427185,
+     "firing": 0.5262135922330097,
+     "set_size": 1.087378640776699
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.2,
+     "set_size": 1.0
+    },
+    {
+     "well": 11,
+     "n": 307,
+     "coverage": 0.742671009771987,
+     "firing": 0.016286644951140065,
+     "set_size": 1.0260586319218241
+    },
+    {
+     "well": 12,
+     "n": 65,
+     "coverage": 0.9538461538461539,
+     "firing": 0.0,
+     "set_size": 1.0769230769230769
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.08333333333333333,
+     "set_size": 1.0833333333333333
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 0.5344827586206896,
+     "firing": 0.5,
+     "set_size": 1.0344827586206897
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 0.34615384615384615,
+     "firing": 0.5439560439560439,
+     "set_size": 1.1263736263736264
+    },
+    {
+     "well": 19,
+     "n": 300,
+     "coverage": 0.6466666666666666,
+     "firing": 0.49,
+     "set_size": 1.1866666666666668
+    },
+    {
+     "well": 20,
+     "n": 327,
+     "coverage": 0.7370030581039755,
+     "firing": 0.17737003058103976,
+     "set_size": 1.180428134556575
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 0.9230769230769231,
+     "firing": 0.0,
+     "set_size": 1.0
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "coverage": 0.9875,
+     "firing": 0.0,
+     "set_size": 1.1458333333333333
+    },
+    {
+     "well": 24,
+     "n": 748,
+     "coverage": 0.9532085561497327,
+     "firing": 0.001336898395721925,
+     "set_size": 1.1550802139037433
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 0.06666666666666667,
+     "firing": 0.7166666666666667,
+     "set_size": 1.05
+    },
+    {
+     "well": 29,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.36666666666666664,
+     "firing": 0.4166666666666667,
+     "set_size": 1.1833333333333333
+    },
+    {
+     "well": 32,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.0
+    },
+    {
+     "well": 37,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.0
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 0.9666666666666667,
+     "firing": 0.03333333333333333,
+     "set_size": 1.05
+    },
+    {
+     "well": 39,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.0
+    },
+    {
+     "well": 40,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.0
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "coverage": 0.8944444444444445,
+     "firing": 0.06666666666666667,
+     "set_size": 1.0574074074074074
+    }
+   ]
+  },
+  {
+   "seed": 0,
+   "arm": "transformer",
+   "method": "well_quantile",
+   "tau": Infinity,
+   "rho": Infinity,
+   "K_cal_wells": 1,
+   "coverage": 1.0,
+   "coverage_well_mean": 1.0,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 1.0,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.0,
+   "mean_set_size": 2.0,
+   "singleton_rate": 0.0,
+   "empty_set_rate": 0.0,
+   "abstention": 1.0,
+   "wrong_label_rate": 0.0,
+   "novelty_recall": 1.0,
+   "novelty_lift": 0.0,
+   "n_wells_summarized": 15,
+   "wells": [
+    {
+     "well": 3,
+     "n": 1672,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 7,
+     "n": 515,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 11,
+     "n": 307,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 12,
+     "n": 65,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 19,
+     "n": 300,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 20,
+     "n": 327,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 24,
+     "n": 748,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 29,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 32,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 37,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 39,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 40,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    }
+   ]
+  },
+  {
+   "seed": 0,
+   "arm": "transformer",
+   "method": "well_balanced",
+   "tau": 0.9897254593670368,
+   "rho": 985.5266723632812,
+   "K_cal_wells": 1,
+   "coverage": 0.9861538461538462,
+   "coverage_well_mean": 0.970077686988743,
+   "share_wells_covered": 0.9333333333333333,
+   "coverage_worst_well": 0.7032967032967034,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.000591715976331361,
+   "mean_set_size": 1.9723076923076923,
+   "singleton_rate": 0.027692307692307693,
+   "empty_set_rate": 0.0,
+   "abstention": 0.9728994082840237,
+   "wrong_label_rate": 0.013254437869822486,
+   "novelty_recall": 0.7561779242174629,
+   "novelty_lift": -0.21672148406656078,
+   "n_wells_summarized": 15,
+   "wells": [
+    {
+     "well": 3,
+     "n": 1672,
+     "coverage": 0.9964114832535885,
+     "firing": 0.0,
+     "set_size": 1.9904306220095693
+    },
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 7,
+     "n": 515,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.8019417475728154
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.8
+    },
+    {
+     "well": 11,
+     "n": 307,
+     "coverage": 0.993485342019544,
+     "firing": 0.0,
+     "set_size": 1.993485342019544
+    },
+    {
+     "well": 12,
+     "n": 65,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 0.7032967032967034,
+     "firing": 0.02197802197802198,
+     "set_size": 1.7032967032967032
+    },
+    {
+     "well": 19,
+     "n": 300,
+     "coverage": 0.9566666666666667,
+     "firing": 0.0033333333333333335,
+     "set_size": 1.9566666666666668
+    },
+    {
+     "well": 20,
+     "n": 327,
+     "coverage": 0.9785932721712538,
+     "firing": 0.0,
+     "set_size": 1.9785932721712538
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 24,
+     "n": 748,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 0.8,
+     "firing": 0.0,
+     "set_size": 1.8
+    },
+    {
+     "well": 29,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.9166666666666666,
+     "firing": 0.0,
+     "set_size": 1.9166666666666667
+    },
+    {
+     "well": 32,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 37,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 39,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 40,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "coverage": 0.9666666666666667,
+     "firing": 0.0,
+     "set_size": 1.9666666666666666
+    }
+   ]
+  },
+  {
+   "seed": 0,
+   "arm": "transformer",
+   "method": "well_subsample",
+   "tau": 0.9629317857325077,
+   "rho": 27.488069534301758,
+   "K_cal_wells": 1,
+   "coverage": 0.9711242603550296,
+   "coverage_well_mean": 0.9188702831335769,
+   "share_wells_covered": 0.8666666666666667,
+   "coverage_worst_well": 0.6043956043956044,
+   "share_wells_firing_le_beta": 0.7333333333333333,
+   "firing_rate": 0.05207100591715976,
+   "mean_set_size": 1.9433136094674557,
+   "singleton_rate": 0.05668639053254438,
+   "empty_set_rate": 0.0,
+   "abstention": 0.9744378698224853,
+   "wrong_label_rate": 0.012662721893491125,
+   "novelty_recall": 0.8747940691927513,
+   "novelty_lift": -0.09964380062973399,
+   "n_wells_summarized": 15,
+   "wells": [
+    {
+     "well": 3,
+     "n": 1672,
+     "coverage": 0.9940191387559809,
+     "firing": 0.01555023923444976,
+     "set_size": 1.985645933014354
+    },
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 0.9995760915642221,
+     "firing": 0.0,
+     "set_size": 1.9995760915642222
+    },
+    {
+     "well": 7,
+     "n": 515,
+     "coverage": 1.0,
+     "firing": 0.2524271844660194,
+     "set_size": 1.5883495145631068
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.2,
+     "set_size": 1.8
+    },
+    {
+     "well": 11,
+     "n": 307,
+     "coverage": 0.993485342019544,
+     "firing": 0.006514657980456026,
+     "set_size": 1.993485342019544
+    },
+    {
+     "well": 12,
+     "n": 65,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 0.8275862068965517,
+     "firing": 0.45689655172413796,
+     "set_size": 1.8275862068965518
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 0.6043956043956044,
+     "firing": 0.37362637362637363,
+     "set_size": 1.6043956043956045
+    },
+    {
+     "well": 19,
+     "n": 300,
+     "coverage": 0.9033333333333333,
+     "firing": 0.33,
+     "set_size": 1.9033333333333333
+    },
+    {
+     "well": 20,
+     "n": 327,
+     "coverage": 0.944954128440367,
+     "firing": 0.04281345565749235,
+     "set_size": 1.9327217125382263
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 24,
+     "n": 748,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 0.31666666666666665,
+     "firing": 0.2833333333333333,
+     "set_size": 1.3166666666666667
+    },
+    {
+     "well": 29,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.6,
+     "firing": 0.0,
+     "set_size": 1.6
+    },
+    {
+     "well": 32,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 37,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.025,
+     "set_size": 2.0
+    },
+    {
+     "well": 39,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 40,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "coverage": 0.95,
+     "firing": 0.04259259259259259,
+     "set_size": 1.95
+    }
+   ]
+  },
+  {
+   "seed": 0,
+   "arm": "transformer",
+   "method": "well_quantile_d0.20",
+   "tau": Infinity,
+   "rho": Infinity,
+   "K_cal_wells": 1,
+   "coverage": 1.0,
+   "coverage_well_mean": 1.0,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 1.0,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.0,
+   "mean_set_size": 2.0,
+   "singleton_rate": 0.0,
+   "empty_set_rate": 0.0,
+   "abstention": 1.0,
+   "wrong_label_rate": 0.0,
+   "novelty_recall": 1.0,
+   "novelty_lift": 0.0,
+   "n_wells_summarized": 15,
+   "wells": [
+    {
+     "well": 3,
+     "n": 1672,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 7,
+     "n": 515,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 11,
+     "n": 307,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 12,
+     "n": 65,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 19,
+     "n": 300,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 20,
+     "n": 327,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 24,
+     "n": 748,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 29,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 32,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 37,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 39,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 40,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    }
+   ]
+  },
+  {
+   "seed": 0,
+   "arm": "transformer",
+   "method": "well_quantile_d0.30",
+   "tau": Infinity,
+   "rho": Infinity,
+   "K_cal_wells": 1,
+   "coverage": 1.0,
+   "coverage_well_mean": 1.0,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 1.0,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.0,
+   "mean_set_size": 2.0,
+   "singleton_rate": 0.0,
+   "empty_set_rate": 0.0,
+   "abstention": 1.0,
+   "wrong_label_rate": 0.0,
+   "novelty_recall": 1.0,
+   "novelty_lift": 0.0,
+   "n_wells_summarized": 15,
+   "wells": [
+    {
+     "well": 3,
+     "n": 1672,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 7,
+     "n": 515,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 11,
+     "n": 307,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 12,
+     "n": 65,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 19,
+     "n": 300,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 20,
+     "n": 327,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 24,
+     "n": 748,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 29,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 32,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 37,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 39,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 40,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    }
+   ],
+   "cal_wells": [
+    {
+     "well": 1,
+     "n": 7380,
+     "n_fault": 1680,
+     "q": 0.6266704797744751,
+     "error_rate": 0.14444444444444443
+    }
+   ]
+  },
+  {
+   "seed": 1,
+   "arm": "rf",
+   "method": "window",
+   "tau": 0.6084950864315033,
+   "rho": 2813.905029296875,
+   "K_cal_wells": 9,
+   "coverage": 0.896348421453024,
+   "coverage_well_mean": 0.8828753076182891,
+   "share_wells_covered": 0.75,
+   "coverage_worst_well": 0.4010989010989011,
+   "share_wells_firing_le_beta": 0.75,
+   "firing_rate": 0.0198744769874477,
+   "mean_set_size": 1.256276150627615,
+   "singleton_rate": 0.7437238493723849,
+   "empty_set_rate": 0.0,
+   "abstention": 0.26702168124762266,
+   "wrong_label_rate": 0.09823126664130848,
+   "novelty_recall": 0.3088235294117647,
+   "novelty_lift": 0.041801848164142064,
+   "n_wells_summarized": 8,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 0.9334463755828741,
+     "firing": 0.0,
+     "set_size": 1.314540059347181
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 0.889766081871345,
+     "firing": 0.0195906432748538,
+     "set_size": 1.2595029239766082
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.04,
+     "set_size": 1.04
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.0833333333333333
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 0.9827586206896551,
+     "firing": 0.22413793103448276,
+     "set_size": 1.25
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 0.4010989010989011,
+     "firing": 0.19230769230769232,
+     "set_size": 1.2362637362637363
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 0.9230769230769231,
+     "firing": 0.0,
+     "set_size": 1.0615384615384615
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.65,
+     "firing": 0.0,
+     "set_size": 1.4
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.008333333333333333,
+     "set_size": 1.0583333333333333
+    },
+    {
+     "well": 39,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.0
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "coverage": 0.9314814814814815,
+     "firing": 0.022222222222222223,
+     "set_size": 1.1185185185185185
+    }
+   ]
+  },
+  {
+   "seed": 1,
+   "arm": "rf",
+   "method": "well_quantile",
+   "tau": 0.9121775254607201,
+   "rho": 4544.123046875,
+   "K_cal_wells": 9,
+   "coverage": 0.998288322556105,
+   "coverage_well_mean": 0.9893088393088394,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 0.9175824175824175,
+   "share_wells_firing_le_beta": 0.75,
+   "firing_rate": 0.017306960821605172,
+   "mean_set_size": 1.9774629136553823,
+   "singleton_rate": 0.022537086344617725,
+   "empty_set_rate": 0.0,
+   "abstention": 0.9782236591860023,
+   "wrong_label_rate": 0.0009509319132750095,
+   "novelty_recall": 0.9411764705882353,
+   "novelty_lift": -0.03704718859776701,
+   "n_wells_summarized": 8,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.97414158541755
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 1.0,
+     "firing": 0.018128654970760234,
+     "set_size": 1.9814327485380117
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.96
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 1.0,
+     "firing": 0.1206896551724138,
+     "set_size": 2.0
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 0.9175824175824175,
+     "firing": 0.1813186813186813,
+     "set_size": 1.9175824175824177
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.9666666666666667,
+     "firing": 0.0,
+     "set_size": 1.9666666666666666
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.008333333333333333,
+     "set_size": 2.0
+    },
+    {
+     "well": 39,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "coverage": 0.9981481481481481,
+     "firing": 0.018518518518518517,
+     "set_size": 1.9425925925925926
+    }
+   ]
+  },
+  {
+   "seed": 1,
+   "arm": "rf",
+   "method": "well_balanced",
+   "tau": 0.9797970186918974,
+   "rho": 1165552.125,
+   "K_cal_wells": 9,
+   "coverage": 0.9999049068086725,
+   "coverage_well_mean": 0.9995004995004995,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 0.9945054945054945,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.0,
+   "mean_set_size": 1.9999049068086725,
+   "singleton_rate": 9.509319132750095e-05,
+   "empty_set_rate": 0.0,
+   "abstention": 0.9999049068086725,
+   "wrong_label_rate": 9.509319132750095e-05,
+   "novelty_recall": 0.9558823529411765,
+   "novelty_lift": -0.044022553867495984,
+   "n_wells_summarized": 8,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 0.9945054945054945,
+     "firing": 0.0,
+     "set_size": 1.9945054945054945
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 39,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    }
+   ]
+  },
+  {
+   "seed": 1,
+   "arm": "rf",
+   "method": "well_subsample",
+   "tau": 0.9797970186918974,
+   "rho": 274616.6875,
+   "K_cal_wells": 9,
+   "coverage": 0.9999049068086725,
+   "coverage_well_mean": 0.9995004995004995,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 0.9945054945054945,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.0001901863826550019,
+   "mean_set_size": 1.9999049068086725,
+   "singleton_rate": 9.509319132750095e-05,
+   "empty_set_rate": 0.0,
+   "abstention": 0.9999049068086725,
+   "wrong_label_rate": 9.509319132750095e-05,
+   "novelty_recall": 0.9558823529411765,
+   "novelty_lift": -0.044022553867495984,
+   "n_wells_summarized": 8,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 0.9945054945054945,
+     "firing": 0.01098901098901099,
+     "set_size": 1.9945054945054945
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 39,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    }
+   ]
+  },
+  {
+   "seed": 1,
+   "arm": "rf",
+   "method": "well_quantile_d0.20",
+   "tau": 0.7876003235578537,
+   "rho": 1845.08349609375,
+   "K_cal_wells": 9,
+   "coverage": 0.9808862685431723,
+   "coverage_well_mean": 0.957037835725897,
+   "share_wells_covered": 0.875,
+   "coverage_worst_well": 0.7582417582417582,
+   "share_wells_firing_le_beta": 0.75,
+   "firing_rate": 0.02225180677063522,
+   "mean_set_size": 1.75114111829593,
+   "singleton_rate": 0.24885888170407,
+   "empty_set_rate": 0.0,
+   "abstention": 0.7538037276531,
+   "wrong_label_rate": 0.016546215290985166,
+   "novelty_recall": 0.8088235294117647,
+   "novelty_lift": 0.05501980175866472,
+   "n_wells_summarized": 8,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 0.9877066553624417,
+     "firing": 0.0,
+     "set_size": 1.608732513777024
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 0.985672514619883,
+     "firing": 0.02017543859649123,
+     "set_size": 1.8147660818713451
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.2,
+     "set_size": 1.64
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.6666666666666667
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 0.9913793103448276,
+     "firing": 0.3103448275862069,
+     "set_size": 1.9913793103448276
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 0.7582417582417582,
+     "firing": 0.22527472527472528,
+     "set_size": 1.7417582417582418
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 0.9692307692307692,
+     "firing": 0.0,
+     "set_size": 1.6615384615384616
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.8666666666666667,
+     "firing": 0.0,
+     "set_size": 1.8666666666666667
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.008333333333333333,
+     "set_size": 1.7166666666666666
+    },
+    {
+     "well": 39,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "coverage": 0.9685185185185186,
+     "firing": 0.024074074074074074,
+     "set_size": 1.488888888888889
+    }
+   ]
+  },
+  {
+   "seed": 1,
+   "arm": "rf",
+   "method": "well_quantile_d0.30",
+   "tau": 0.6606630980968475,
+   "rho": 228.50096130371094,
+   "K_cal_wells": 9,
+   "coverage": 0.9321985545834918,
+   "coverage_well_mean": 0.9108285265640116,
+   "share_wells_covered": 0.875,
+   "coverage_worst_well": 0.5054945054945055,
+   "share_wells_firing_le_beta": 0.75,
+   "firing_rate": 0.029193609737542793,
+   "mean_set_size": 1.3743818942563713,
+   "singleton_rate": 0.6256181057436287,
+   "empty_set_rate": 0.0,
+   "abstention": 0.3897869912514264,
+   "wrong_label_rate": 0.0598136173449981,
+   "novelty_recall": 0.45588235294117646,
+   "novelty_lift": 0.06609536168975005,
+   "n_wells_summarized": 8,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 0.9605765154726579,
+     "firing": 0.0,
+     "set_size": 1.3950826621449768
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 0.9299707602339181,
+     "firing": 0.021637426900584796,
+     "set_size": 1.3941520467836257
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.2,
+     "set_size": 1.16
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.1666666666666667
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 0.9827586206896551,
+     "firing": 0.5344827586206896,
+     "set_size": 1.4137931034482758
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 0.5054945054945055,
+     "firing": 0.3516483516483517,
+     "set_size": 1.379120879120879
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 0.9384615384615385,
+     "firing": 0.0,
+     "set_size": 1.1307692307692307
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.75,
+     "firing": 0.08333333333333333,
+     "set_size": 1.5833333333333333
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.016666666666666666,
+     "set_size": 1.25
+    },
+    {
+     "well": 39,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.0
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "coverage": 0.9518518518518518,
+     "firing": 0.03888888888888889,
+     "set_size": 1.1888888888888889
+    }
+   ],
+   "cal_wells": [
+    {
+     "well": 3,
+     "n": 1672,
+     "n_fault": 18,
+     "q": 0.3175537586212158,
+     "error_rate": 0.017344497607655503
+    },
+    {
+     "well": 12,
+     "n": 65,
+     "n_fault": 0,
+     "q": 0.3519095778465271,
+     "error_rate": 0.0
+    },
+    {
+     "well": 14,
+     "n": 4440,
+     "n_fault": 4260,
+     "q": 0.6606630980968475,
+     "error_rate": 0.20698198198198198
+    },
+    {
+     "well": 19,
+     "n": 300,
+     "n_fault": 0,
+     "q": 0.7876003235578537,
+     "error_rate": 0.26
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "n_fault": 0,
+     "q": 0.2573227882385254,
+     "error_rate": 0.0020833333333333333
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "n_fault": 0,
+     "q": 0.9121775254607201,
+     "error_rate": 0.9666666666666667
+    },
+    {
+     "well": 29,
+     "n": 60,
+     "n_fault": 0,
+     "q": 0.31329697370529175,
+     "error_rate": 0.0
+    },
+    {
+     "well": 32,
+     "n": 60,
+     "n_fault": 0,
+     "q": 0.22752737998962402,
+     "error_rate": 0.0
+    },
+    {
+     "well": 37,
+     "n": 120,
+     "n_fault": 0,
+     "q": 0.4336320161819458,
+     "error_rate": 0.016666666666666666
+    }
+   ]
+  },
+  {
+   "seed": 1,
+   "arm": "transformer",
+   "method": "window",
+   "tau": 0.8073079735040665,
+   "rho": 2339.8330078125,
+   "K_cal_wells": 9,
+   "coverage": 0.9713769494104222,
+   "coverage_well_mean": 0.9043739123575084,
+   "share_wells_covered": 0.75,
+   "coverage_worst_well": 0.6428571428571429,
+   "share_wells_firing_le_beta": 0.875,
+   "firing_rate": 0.008082921262837581,
+   "mean_set_size": 1.3414796500570558,
+   "singleton_rate": 0.6585203499429441,
+   "empty_set_rate": 0.0,
+   "abstention": 0.3467097755800685,
+   "wrong_label_rate": 0.023868391023202738,
+   "novelty_recall": 0.38235294117647056,
+   "novelty_lift": 0.03564316559640207,
+   "n_wells_summarized": 8,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 0.9690546841882154,
+     "firing": 0.0,
+     "set_size": 1.516744383213226
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 0.9871345029239766,
+     "firing": 0.005847953216374269,
+     "set_size": 1.309795321637427
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.2,
+     "set_size": 1.0
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.0833333333333333
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 0.7241379310344828,
+     "firing": 0.13793103448275862,
+     "set_size": 1.146551724137931
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 0.6428571428571429,
+     "firing": 0.0989010989010989,
+     "set_size": 1.5494505494505495
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 0.9230769230769231,
+     "firing": 0.0,
+     "set_size": 1.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.7333333333333333,
+     "firing": 0.0,
+     "set_size": 1.65
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.0833333333333333
+    },
+    {
+     "well": 39,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.0
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "coverage": 0.9685185185185186,
+     "firing": 0.011111111111111112,
+     "set_size": 1.1574074074074074
+    }
+   ]
+  },
+  {
+   "seed": 1,
+   "arm": "transformer",
+   "method": "well_quantile",
+   "tau": 0.9797606151551008,
+   "rho": 5525.77685546875,
+   "K_cal_wells": 9,
+   "coverage": 0.9941042221376949,
+   "coverage_well_mean": 0.9645282559075663,
+   "share_wells_covered": 0.75,
+   "coverage_worst_well": 0.7931034482758621,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.003233168505135032,
+   "mean_set_size": 1.99353366298973,
+   "singleton_rate": 0.006466337010270064,
+   "empty_set_rate": 0.0,
+   "abstention": 0.99657664511221,
+   "wrong_label_rate": 0.0033282616964625334,
+   "novelty_recall": 0.8970588235294118,
+   "novelty_lift": -0.0995178215827982,
+   "n_wells_summarized": 8,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.9995760915642222
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 1.0,
+     "firing": 0.00029239766081871346,
+     "set_size": 2.0
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.2,
+     "set_size": 1.8
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 0.7931034482758621,
+     "firing": 0.04310344827586207,
+     "set_size": 1.793103448275862
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 0.8296703296703297,
+     "firing": 0.08791208791208792,
+     "set_size": 1.8296703296703296
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 39,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "coverage": 0.987037037037037,
+     "firing": 0.011111111111111112,
+     "set_size": 1.987037037037037
+    }
+   ]
+  },
+  {
+   "seed": 1,
+   "arm": "transformer",
+   "method": "well_balanced",
+   "tau": 0.9995300779410172,
+   "rho": 2567657.75,
+   "K_cal_wells": 9,
+   "coverage": 0.9968619246861925,
+   "coverage_well_mean": 0.9829455984628399,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 0.9010989010989011,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.0,
+   "mean_set_size": 1.996386458729555,
+   "singleton_rate": 0.0036135412704450362,
+   "empty_set_rate": 0.0,
+   "abstention": 0.996386458729555,
+   "wrong_label_rate": 0.0031380753138075313,
+   "novelty_recall": 0.9852941176470589,
+   "novelty_lift": -0.011092341082496127,
+   "n_wells_summarized": 8,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.8
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 0.9224137931034483,
+     "firing": 0.0,
+     "set_size": 1.9224137931034482
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 0.9010989010989011,
+     "firing": 0.0,
+     "set_size": 1.901098901098901
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 39,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "coverage": 0.9888888888888889,
+     "firing": 0.0,
+     "set_size": 1.988888888888889
+    }
+   ]
+  },
+  {
+   "seed": 1,
+   "arm": "transformer",
+   "method": "well_subsample",
+   "tau": 0.9990470744669437,
+   "rho": 85362.015625,
+   "K_cal_wells": 9,
+   "coverage": 0.9964815519208825,
+   "coverage_well_mean": 0.9798108022245953,
+   "share_wells_covered": 0.875,
+   "coverage_worst_well": 0.8879310344827587,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.0010460251046025104,
+   "mean_set_size": 1.996006085964245,
+   "singleton_rate": 0.00399391403575504,
+   "empty_set_rate": 0.0,
+   "abstention": 0.9970521110688475,
+   "wrong_label_rate": 0.002472422974515025,
+   "novelty_recall": 0.9852941176470589,
+   "novelty_lift": -0.011757993421788626,
+   "n_wells_summarized": 8,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.8
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 0.8879310344827587,
+     "firing": 0.0,
+     "set_size": 1.8879310344827587
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 0.9010989010989011,
+     "firing": 0.04945054945054945,
+     "set_size": 1.901098901098901
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 39,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "coverage": 0.9888888888888889,
+     "firing": 0.003703703703703704,
+     "set_size": 1.988888888888889
+    }
+   ]
+  },
+  {
+   "seed": 1,
+   "arm": "transformer",
+   "method": "well_quantile_d0.20",
+   "tau": 0.9489895142614841,
+   "rho": 274.489990234375,
+   "K_cal_wells": 9,
+   "coverage": 0.9922974515024724,
+   "coverage_well_mean": 0.9538924616280596,
+   "share_wells_covered": 0.75,
+   "coverage_worst_well": 0.7692307692307693,
+   "share_wells_firing_le_beta": 0.75,
+   "firing_rate": 0.02092050209205021,
+   "mean_set_size": 1.9779383796120198,
+   "singleton_rate": 0.02206162038798022,
+   "empty_set_rate": 0.0,
+   "abstention": 0.9846899961962724,
+   "wrong_label_rate": 0.0014263978699125142,
+   "novelty_recall": 0.8088235294117647,
+   "novelty_lift": -0.17586646678450768,
+   "n_wells_summarized": 8,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 0.9995760915642221,
+     "firing": 0.0,
+     "set_size": 1.9376854599406528
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 1.0,
+     "firing": 0.020760233918128656,
+     "set_size": 2.0
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.2,
+     "set_size": 1.8
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 0.7758620689655172,
+     "firing": 0.2413793103448276,
+     "set_size": 1.7758620689655173
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 0.7692307692307693,
+     "firing": 0.17582417582417584,
+     "set_size": 1.7692307692307692
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.9666666666666667,
+     "firing": 0.05,
+     "set_size": 1.9666666666666666
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 39,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "coverage": 0.9814814814814815,
+     "firing": 0.018518518518518517,
+     "set_size": 1.9814814814814814
+    }
+   ]
+  },
+  {
+   "seed": 1,
+   "arm": "transformer",
+   "method": "well_quantile_d0.30",
+   "tau": 0.8335663080215454,
+   "rho": 72.2497329711914,
+   "K_cal_wells": 9,
+   "coverage": 0.9743248383415748,
+   "coverage_well_mean": 0.9078300098765989,
+   "share_wells_covered": 0.75,
+   "coverage_worst_well": 0.6593406593406593,
+   "share_wells_firing_le_beta": 0.75,
+   "firing_rate": 0.032331685051350326,
+   "mean_set_size": 1.4066184861163942,
+   "singleton_rate": 0.5933815138836059,
+   "empty_set_rate": 0.0,
+   "abstention": 0.42706352225180677,
+   "wrong_label_rate": 0.00798782807151008,
+   "novelty_recall": 0.6323529411764706,
+   "novelty_lift": 0.2052894189246638,
+   "n_wells_summarized": 8,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 0.9775328529037728,
+     "firing": 0.0,
+     "set_size": 1.5735481136074607
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 0.9878654970760234,
+     "firing": 0.02149122807017544,
+     "set_size": 1.3818713450292397
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.2,
+     "set_size": 1.0
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.08333333333333333,
+     "set_size": 1.125
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 0.7327586206896551,
+     "firing": 0.5172413793103449,
+     "set_size": 1.1810344827586208
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 0.6593406593406593,
+     "firing": 0.42857142857142855,
+     "set_size": 1.5879120879120878
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 0.9230769230769231,
+     "firing": 0.0,
+     "set_size": 1.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.7333333333333333,
+     "firing": 0.35,
+     "set_size": 1.6833333333333333
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.025,
+     "set_size": 1.1416666666666666
+    },
+    {
+     "well": 39,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.0
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "coverage": 0.9722222222222222,
+     "firing": 0.044444444444444446,
+     "set_size": 1.2259259259259259
+    }
+   ],
+   "cal_wells": [
+    {
+     "well": 3,
+     "n": 1672,
+     "n_fault": 18,
+     "q": 0.14731168746948242,
+     "error_rate": 0.005980861244019139
+    },
+    {
+     "well": 12,
+     "n": 65,
+     "n_fault": 0,
+     "q": 0.29293400049209595,
+     "error_rate": 0.015384615384615385
+    },
+    {
+     "well": 14,
+     "n": 4440,
+     "n_fault": 4260,
+     "q": 0.8335663080215454,
+     "error_rate": 0.3096846846846847
+    },
+    {
+     "well": 19,
+     "n": 300,
+     "n_fault": 0,
+     "q": 0.9489895142614841,
+     "error_rate": 0.5833333333333334
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "n_fault": 0,
+     "q": 0.6309522688388824,
+     "error_rate": 0.24166666666666667
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "n_fault": 0,
+     "q": 0.9797606151551008,
+     "error_rate": 1.0
+    },
+    {
+     "well": 29,
+     "n": 60,
+     "n_fault": 0,
+     "q": 0.19203001260757446,
+     "error_rate": 0.0
+    },
+    {
+     "well": 32,
+     "n": 60,
+     "n_fault": 0,
+     "q": 0.11903125047683716,
+     "error_rate": 0.0
+    },
+    {
+     "well": 37,
+     "n": 120,
+     "n_fault": 0,
+     "q": 0.14073753356933594,
+     "error_rate": 0.0
+    }
+   ]
+  },
+  {
+   "seed": 2,
+   "arm": "rf",
+   "method": "window",
+   "tau": 0.6424049139022827,
+   "rho": 4.602222442626953,
+   "K_cal_wells": 9,
+   "coverage": 0.9255610845942926,
+   "coverage_well_mean": 0.5544657791874409,
+   "share_wells_covered": 0.5,
+   "coverage_worst_well": 0.6832579185520362,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.022951152635320403,
+   "mean_set_size": 1.236315629125622,
+   "singleton_rate": 0.763684370874378,
+   "empty_set_rate": 0.0,
+   "abstention": 0.2522595714430791,
+   "wrong_label_rate": 0.06733015131512135,
+   "novelty_recall": 0.8051948051948052,
+   "novelty_lift": 0.5529352337517262,
+   "n_wells_summarized": 4,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 0.9080118694362018,
+     "firing": 0.0,
+     "set_size": 1.275116574819839
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 0.9631578947368421,
+     "firing": 0.02236842105263158,
+     "set_size": 1.2309941520467835
+    },
+    {
+     "well": 11,
+     "n": 307,
+     "coverage": 0.755700325732899,
+     "firing": 0.013029315960912053,
+     "set_size": 1.214983713355049
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 0.0,
+     "firing": 1.0,
+     "set_size": 1.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.016666666666666666,
+     "firing": 0.06666666666666667,
+     "set_size": 1.0166666666666666
+    },
+    {
+     "well": 42,
+     "n": 221,
+     "coverage": 0.6832579185520362,
+     "firing": 0.02262443438914027,
+     "set_size": 1.1402714932126696
+    }
+   ]
+  },
+  {
+   "seed": 2,
+   "arm": "rf",
+   "method": "well_quantile",
+   "tau": 0.9985091948183253,
+   "rho": 476.3489074707031,
+   "K_cal_wells": 9,
+   "coverage": 0.9985782471818828,
+   "coverage_well_mean": 0.965158371040724,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 0.9909502262443439,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.014826850817507871,
+   "mean_set_size": 1.9985782471818827,
+   "singleton_rate": 0.001421752818117193,
+   "empty_set_rate": 0.0,
+   "abstention": 0.9985782471818828,
+   "wrong_label_rate": 0.001421752818117193,
+   "novelty_recall": 0.9298701298701298,
+   "novelty_lift": -0.06870811731175297,
+   "n_wells_summarized": 4,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 1.0,
+     "firing": 0.020906432748538012,
+     "set_size": 2.0
+    },
+    {
+     "well": 11,
+     "n": 307,
+     "coverage": 1.0,
+     "firing": 0.009771986970684038,
+     "set_size": 2.0
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.8,
+     "firing": 0.0,
+     "set_size": 1.8
+    },
+    {
+     "well": 42,
+     "n": 221,
+     "coverage": 0.9909502262443439,
+     "firing": 0.0,
+     "set_size": 1.990950226244344
+    }
+   ]
+  },
+  {
+   "seed": 2,
+   "arm": "rf",
+   "method": "well_balanced",
+   "tau": 0.999996598358166,
+   "rho": 3735.860595703125,
+   "K_cal_wells": 9,
+   "coverage": 1.0,
+   "coverage_well_mean": 1.0,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 1.0,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.01360820554483599,
+   "mean_set_size": 2.0,
+   "singleton_rate": 0.0,
+   "empty_set_rate": 0.0,
+   "abstention": 1.0,
+   "wrong_label_rate": 0.0,
+   "novelty_recall": 1.0,
+   "novelty_lift": 0.0,
+   "n_wells_summarized": 4,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 1.0,
+     "firing": 0.01929824561403509,
+     "set_size": 2.0
+    },
+    {
+     "well": 11,
+     "n": 307,
+     "coverage": 1.0,
+     "firing": 0.006514657980456026,
+     "set_size": 2.0
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 42,
+     "n": 221,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    }
+   ]
+  },
+  {
+   "seed": 2,
+   "arm": "rf",
+   "method": "well_subsample",
+   "tau": 0.999996598358166,
+   "rho": 3144.895263671875,
+   "K_cal_wells": 9,
+   "coverage": 1.0,
+   "coverage_well_mean": 1.0,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 1.0,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.014014420635726617,
+   "mean_set_size": 2.0,
+   "singleton_rate": 0.0,
+   "empty_set_rate": 0.0,
+   "abstention": 1.0,
+   "wrong_label_rate": 0.0,
+   "novelty_recall": 1.0,
+   "novelty_lift": 0.0,
+   "n_wells_summarized": 4,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 1.0,
+     "firing": 0.019883040935672516,
+     "set_size": 2.0
+    },
+    {
+     "well": 11,
+     "n": 307,
+     "coverage": 1.0,
+     "firing": 0.006514657980456026,
+     "set_size": 2.0
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 42,
+     "n": 221,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    }
+   ]
+  },
+  {
+   "seed": 2,
+   "arm": "rf",
+   "method": "well_quantile_d0.20",
+   "tau": 0.8831433430314064,
+   "rho": 70.58399200439453,
+   "K_cal_wells": 9,
+   "coverage": 0.9813141058190312,
+   "coverage_well_mean": 0.7125589763084094,
+   "share_wells_covered": 0.5,
+   "coverage_worst_well": 0.8235294117647058,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.015639280999289122,
+   "mean_set_size": 1.849801970143191,
+   "singleton_rate": 0.1501980298568092,
+   "empty_set_rate": 0.0,
+   "abstention": 0.8498019701431908,
+   "wrong_label_rate": 0.01868589418096882,
+   "novelty_recall": 0.5402597402597402,
+   "novelty_lift": -0.3095422298834506,
+   "n_wells_summarized": 4,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 0.9949130987706656,
+     "firing": 0.0,
+     "set_size": 1.7901653242899533
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 0.9998538011695907,
+     "firing": 0.021929824561403508,
+     "set_size": 1.8909356725146198
+    },
+    {
+     "well": 11,
+     "n": 307,
+     "coverage": 0.8403908794788274,
+     "firing": 0.009771986970684038,
+     "set_size": 1.6905537459283388
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 0.25,
+     "firing": 0.016666666666666666,
+     "set_size": 1.25
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.36666666666666664,
+     "firing": 0.0,
+     "set_size": 1.3666666666666667
+    },
+    {
+     "well": 42,
+     "n": 221,
+     "coverage": 0.8235294117647058,
+     "firing": 0.0,
+     "set_size": 1.7285067873303168
+    }
+   ]
+  },
+  {
+   "seed": 2,
+   "arm": "rf",
+   "method": "well_quantile_d0.30",
+   "tau": 0.7805083990097046,
+   "rho": 24.28719139099121,
+   "K_cal_wells": 9,
+   "coverage": 0.9683152229105312,
+   "coverage_well_mean": 0.6053702915069293,
+   "share_wells_covered": 0.5,
+   "coverage_worst_well": 0.7782805429864253,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.01848278663552351,
+   "mean_set_size": 1.5286889407941504,
+   "singleton_rate": 0.4713110592058495,
+   "empty_set_rate": 0.0,
+   "abstention": 0.5326495379303341,
+   "wrong_label_rate": 0.028942825225957144,
+   "novelty_recall": 0.7012987012987013,
+   "novelty_lift": 0.16864916336836722,
+   "n_wells_summarized": 4,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 0.9758372191606614,
+     "firing": 0.0,
+     "set_size": 1.5434506146672318
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 0.9963450292397661,
+     "firing": 0.022222222222222223,
+     "set_size": 1.5450292397660819
+    },
+    {
+     "well": 11,
+     "n": 307,
+     "coverage": 0.7817589576547231,
+     "firing": 0.009771986970684038,
+     "set_size": 1.3289902280130292
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 0.0,
+     "firing": 0.45,
+     "set_size": 1.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.1,
+     "firing": 0.0,
+     "set_size": 1.1
+    },
+    {
+     "well": 42,
+     "n": 221,
+     "coverage": 0.7782805429864253,
+     "firing": 0.0,
+     "set_size": 1.4027149321266967
+    }
+   ],
+   "cal_wells": [
+    {
+     "well": 3,
+     "n": 1672,
+     "n_fault": 18,
+     "q": 0.29003840684890747,
+     "error_rate": 0.04844497607655503
+    },
+    {
+     "well": 7,
+     "n": 515,
+     "n_fault": 429,
+     "q": 0.8831433430314064,
+     "error_rate": 0.1436893203883495
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "n_fault": 3,
+     "q": 0.4081568121910095,
+     "error_rate": 0.0
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "n_fault": 2,
+     "q": 0.14235973358154297,
+     "error_rate": 0.017241379310344827
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "n_fault": 45,
+     "q": 0.9985091948183253,
+     "error_rate": 0.6703296703296703
+    },
+    {
+     "well": 20,
+     "n": 327,
+     "n_fault": 18,
+     "q": 0.7805083990097046,
+     "error_rate": 0.3333333333333333
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "n_fault": 0,
+     "q": 0.6497587263584137,
+     "error_rate": 0.26666666666666666
+    },
+    {
+     "well": 24,
+     "n": 748,
+     "n_fault": 18,
+     "q": 0.6238465309143066,
+     "error_rate": 0.24331550802139038
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "n_fault": 0,
+     "q": 0.6228148937225342,
+     "error_rate": 0.1259259259259259
+    }
+   ]
+  },
+  {
+   "seed": 2,
+   "arm": "transformer",
+   "method": "window",
+   "tau": 0.5319316983222961,
+   "rho": 14.437019348144531,
+   "K_cal_wells": 9,
+   "coverage": 0.8773230425510308,
+   "coverage_well_mean": 0.5876254094568216,
+   "share_wells_covered": 0.25,
+   "coverage_worst_well": 0.6286562102585841,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.021935614908093835,
+   "mean_set_size": 1.0215293998172033,
+   "singleton_rate": 0.9784706001827967,
+   "empty_set_rate": 0.0,
+   "abstention": 0.04234792322534782,
+   "wrong_label_rate": 0.10602213872245354,
+   "novelty_recall": 0.4857142857142857,
+   "novelty_lift": 0.4433663624889379,
+   "n_wells_summarized": 4,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 0.6286562102585841,
+     "firing": 0.0,
+     "set_size": 1.0737600678253498
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 0.9846491228070176,
+     "firing": 0.021929824561403508,
+     "set_size": 1.0038011695906432
+    },
+    {
+     "well": 11,
+     "n": 307,
+     "coverage": 0.7296416938110749,
+     "firing": 0.019543973941368076,
+     "set_size": 1.0
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 0.03333333333333333,
+     "firing": 0.5833333333333334,
+     "set_size": 1.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.36666666666666664,
+     "firing": 0.21666666666666667,
+     "set_size": 1.05
+    },
+    {
+     "well": 42,
+     "n": 221,
+     "coverage": 0.7828054298642534,
+     "firing": 0.05429864253393665,
+     "set_size": 1.0407239819004526
+    }
+   ]
+  },
+  {
+   "seed": 2,
+   "arm": "transformer",
+   "method": "well_quantile",
+   "tau": 0.9975302235689014,
+   "rho": 104.42471313476562,
+   "K_cal_wells": 9,
+   "coverage": 0.9997968924545547,
+   "coverage_well_mean": 0.9984917043740573,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 0.9909502262443439,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.015334619681121153,
+   "mean_set_size": 1.9997968924545546,
+   "singleton_rate": 0.0002031075454453133,
+   "empty_set_rate": 0.0,
+   "abstention": 0.9997968924545547,
+   "wrong_label_rate": 0.0002031075454453133,
+   "novelty_recall": 0.9012987012987013,
+   "novelty_lift": -0.09849819115585345,
+   "n_wells_summarized": 4,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 1.0,
+     "firing": 0.021637426900584796,
+     "set_size": 2.0
+    },
+    {
+     "well": 11,
+     "n": 307,
+     "coverage": 1.0,
+     "firing": 0.009771986970684038,
+     "set_size": 2.0
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 42,
+     "n": 221,
+     "coverage": 0.9909502262443439,
+     "firing": 0.0,
+     "set_size": 1.990950226244344
+    }
+   ]
+  },
+  {
+   "seed": 2,
+   "arm": "transformer",
+   "method": "well_balanced",
+   "tau": 0.9999619565824105,
+   "rho": 4197.89794921875,
+   "K_cal_wells": 9,
+   "coverage": 1.0,
+   "coverage_well_mean": 1.0,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 1.0,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.001726414136285163,
+   "mean_set_size": 2.0,
+   "singleton_rate": 0.0,
+   "empty_set_rate": 0.0,
+   "abstention": 1.0,
+   "wrong_label_rate": 0.0,
+   "novelty_recall": 0.9974025974025974,
+   "novelty_lift": -0.0025974025974025983,
+   "n_wells_summarized": 4,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 1.0,
+     "firing": 0.0024853801169590645,
+     "set_size": 2.0
+    },
+    {
+     "well": 11,
+     "n": 307,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 42,
+     "n": 221,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    }
+   ]
+  },
+  {
+   "seed": 2,
+   "arm": "transformer",
+   "method": "well_subsample",
+   "tau": 0.999832493296708,
+   "rho": 4197.89794921875,
+   "K_cal_wells": 9,
+   "coverage": 1.0,
+   "coverage_well_mean": 1.0,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 1.0,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.001726414136285163,
+   "mean_set_size": 2.0,
+   "singleton_rate": 0.0,
+   "empty_set_rate": 0.0,
+   "abstention": 1.0,
+   "wrong_label_rate": 0.0,
+   "novelty_recall": 0.9948051948051948,
+   "novelty_lift": -0.0051948051948051965,
+   "n_wells_summarized": 4,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 1.0,
+     "firing": 0.0024853801169590645,
+     "set_size": 2.0
+    },
+    {
+     "well": 11,
+     "n": 307,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 42,
+     "n": 221,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    }
+   ]
+  },
+  {
+   "seed": 2,
+   "arm": "transformer",
+   "method": "well_quantile_d0.20",
+   "tau": 0.9643094204366207,
+   "rho": 48.63396072387695,
+   "K_cal_wells": 9,
+   "coverage": 0.9933990047730273,
+   "coverage_well_mean": 0.8542686731420206,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 0.9321266968325792,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.015537727226566466,
+   "mean_set_size": 1.9933990047730272,
+   "singleton_rate": 0.006600995226972682,
+   "empty_set_rate": 0.0,
+   "abstention": 0.9935005585457499,
+   "wrong_label_rate": 0.0064994414542500255,
+   "novelty_recall": 0.6883116883116883,
+   "novelty_lift": -0.3051888702340616,
+   "n_wells_summarized": 4,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 1.0,
+     "firing": 0.02178362573099415,
+     "set_size": 2.0
+    },
+    {
+     "well": 11,
+     "n": 307,
+     "coverage": 0.993485342019544,
+     "firing": 0.009771986970684038,
+     "set_size": 1.993485342019544
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 0.48333333333333334,
+     "firing": 0.016666666666666666,
+     "set_size": 1.4833333333333334
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.7166666666666667,
+     "firing": 0.0,
+     "set_size": 1.7166666666666666
+    },
+    {
+     "well": 42,
+     "n": 221,
+     "coverage": 0.9321266968325792,
+     "firing": 0.0,
+     "set_size": 1.9321266968325792
+    }
+   ]
+  },
+  {
+   "seed": 2,
+   "arm": "transformer",
+   "method": "well_quantile_d0.30",
+   "tau": 0.8233259916305542,
+   "rho": 40.36054992675781,
+   "K_cal_wells": 9,
+   "coverage": 0.9844622727734336,
+   "coverage_well_mean": 0.7594499553612511,
+   "share_wells_covered": 0.75,
+   "coverage_worst_well": 0.8778280542986425,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.015537727226566466,
+   "mean_set_size": 1.9683152229105312,
+   "singleton_rate": 0.031684777089468874,
+   "empty_set_rate": 0.0,
+   "abstention": 0.9725804813648827,
+   "wrong_label_rate": 0.011475576317660201,
+   "novelty_recall": 0.509090909090909,
+   "novelty_lift": -0.4634895722739737,
+   "n_wells_summarized": 4,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 0.9974565493853328,
+     "firing": 0.0,
+     "set_size": 1.9309029249682068
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 0.9944444444444445,
+     "firing": 0.02178362573099415,
+     "set_size": 1.9941520467836258
+    },
+    {
+     "well": 11,
+     "n": 307,
+     "coverage": 0.9869706840390879,
+     "firing": 0.009771986970684038,
+     "set_size": 1.986970684039088
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 0.15,
+     "firing": 0.016666666666666666,
+     "set_size": 1.15
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.55,
+     "firing": 0.0,
+     "set_size": 1.55
+    },
+    {
+     "well": 42,
+     "n": 221,
+     "coverage": 0.8778280542986425,
+     "firing": 0.0,
+     "set_size": 1.8778280542986425
+    }
+   ],
+   "cal_wells": [
+    {
+     "well": 3,
+     "n": 1672,
+     "n_fault": 18,
+     "q": 0.21322524547576904,
+     "error_rate": 0.01076555023923445
+    },
+    {
+     "well": 7,
+     "n": 515,
+     "n_fault": 429,
+     "q": 0.5175476968288422,
+     "error_rate": 0.10485436893203884
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "n_fault": 3,
+     "q": 0.5134989619255066,
+     "error_rate": 0.125
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "n_fault": 2,
+     "q": 0.9643094204366207,
+     "error_rate": 0.41379310344827586
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "n_fault": 45,
+     "q": 0.9975302235689014,
+     "error_rate": 0.7692307692307693
+    },
+    {
+     "well": 20,
+     "n": 327,
+     "n_fault": 18,
+     "q": 0.8233259916305542,
+     "error_rate": 0.2966360856269113
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "n_fault": 0,
+     "q": 0.4124840497970581,
+     "error_rate": 0.027083333333333334
+    },
+    {
+     "well": 24,
+     "n": 748,
+     "n_fault": 18,
+     "q": 0.4625963568687439,
+     "error_rate": 0.07887700534759358
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "n_fault": 0,
+     "q": 0.6185745596885681,
+     "error_rate": 0.11481481481481481
+    }
+   ]
+  },
+  {
+   "seed": 3,
+   "arm": "rf",
+   "method": "window",
+   "tau": 0.7774890512228012,
+   "rho": 8.582976341247559,
+   "K_cal_wells": 13,
+   "coverage": 0.8474056165147852,
+   "coverage_well_mean": 0.7331853651422842,
+   "share_wells_covered": 0.8333333333333334,
+   "coverage_worst_well": 0.8204607046070461,
+   "share_wells_firing_le_beta": 0.8333333333333334,
+   "firing_rate": 0.02073647015064162,
+   "mean_set_size": 1.3324344429979542,
+   "singleton_rate": 0.6675655570020458,
+   "empty_set_rate": 0.0,
+   "abstention": 0.3465687186163288,
+   "wrong_label_rate": 0.13846010786684024,
+   "novelty_recall": 0.9102564102564102,
+   "novelty_lift": 0.5636876916400815,
+   "n_wells_summarized": 6,
+   "wells": [
+    {
+     "well": 1,
+     "n": 7380,
+     "coverage": 0.8204607046070461,
+     "firing": 0.013008130081300813,
+     "set_size": 1.3055555555555556
+    },
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 0.9258160237388724,
+     "firing": 0.0,
+     "set_size": 1.3459092835947435
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 0.8,
+     "firing": 0.2,
+     "set_size": 1.0
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 0.875,
+     "firing": 0.0,
+     "set_size": 1.0
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 1.0,
+     "firing": 0.5,
+     "set_size": 1.5344827586206897
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 0.9230769230769231,
+     "firing": 0.0,
+     "set_size": 1.0
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "coverage": 0.9958333333333333,
+     "firing": 0.008333333333333333,
+     "set_size": 1.6958333333333333
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 0.0,
+     "firing": 0.9833333333333333,
+     "set_size": 1.0
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.0,
+     "firing": 0.0,
+     "set_size": 1.0
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 0.9916666666666667,
+     "firing": 0.008333333333333333,
+     "set_size": 1.9
+    }
+   ]
+  },
+  {
+   "seed": 3,
+   "arm": "rf",
+   "method": "well_quantile",
+   "tau": 0.9991973287542351,
+   "rho": 470.9342346191406,
+   "K_cal_wells": 13,
+   "coverage": 0.997861260926167,
+   "coverage_well_mean": 0.9930758807588076,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 0.9974254742547426,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.00027896596615212943,
+   "mean_set_size": 1.9974893063046308,
+   "singleton_rate": 0.002510693695369165,
+   "empty_set_rate": 0.0,
+   "abstention": 0.9974893063046308,
+   "wrong_label_rate": 0.0021387390738329924,
+   "novelty_recall": 0.8782051282051282,
+   "novelty_lift": -0.11928417809950265,
+   "n_wells_summarized": 6,
+   "wells": [
+    {
+     "well": 1,
+     "n": 7380,
+     "coverage": 0.9974254742547426,
+     "firing": 0.0004065040650406504,
+     "set_size": 1.9968834688346884
+    },
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 0.9666666666666667,
+     "firing": 0.0,
+     "set_size": 1.9666666666666666
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.9666666666666667,
+     "firing": 0.0,
+     "set_size": 1.9666666666666666
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    }
+   ]
+  },
+  {
+   "seed": 3,
+   "arm": "rf",
+   "method": "well_balanced",
+   "tau": 0.9866088628768921,
+   "rho": 152.8158721923828,
+   "K_cal_wells": 13,
+   "coverage": 0.9795424958155106,
+   "coverage_well_mean": 0.9027913279132791,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 0.9779132791327914,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.0003719546215361726,
+   "mean_set_size": 1.974428119769388,
+   "singleton_rate": 0.025571880230611865,
+   "empty_set_rate": 0.0,
+   "abstention": 0.9744281197693881,
+   "wrong_label_rate": 0.02045750418448949,
+   "novelty_recall": 0.6025641025641025,
+   "novelty_lift": -0.3718640172052856,
+   "n_wells_summarized": 6,
+   "wells": [
+    {
+     "well": 1,
+     "n": 7380,
+     "coverage": 0.9779132791327914,
+     "firing": 0.0004065040650406504,
+     "set_size": 1.9704607046070461
+    },
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 0.5666666666666667,
+     "firing": 0.016666666666666666,
+     "set_size": 1.5666666666666667
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.48333333333333334,
+     "firing": 0.0,
+     "set_size": 1.4833333333333334
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    }
+   ]
+  },
+  {
+   "seed": 3,
+   "arm": "rf",
+   "method": "well_subsample",
+   "tau": 0.9873809432610869,
+   "rho": 149.22518920898438,
+   "K_cal_wells": 13,
+   "coverage": 0.980751348335503,
+   "coverage_well_mean": 0.9112330623306233,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 0.9789972899728997,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.00046494327692021576,
+   "mean_set_size": 1.9761019155663009,
+   "singleton_rate": 0.023898084433699087,
+   "empty_set_rate": 0.0,
+   "abstention": 0.9761019155663009,
+   "wrong_label_rate": 0.019248651664496932,
+   "novelty_recall": 0.6025641025641025,
+   "novelty_lift": -0.37353781300219835,
+   "n_wells_summarized": 6,
+   "wells": [
+    {
+     "well": 1,
+     "n": 7380,
+     "coverage": 0.9789972899728997,
+     "firing": 0.0004065040650406504,
+     "set_size": 1.9722222222222223
+    },
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 0.6166666666666667,
+     "firing": 0.016666666666666666,
+     "set_size": 1.6166666666666667
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.5166666666666667,
+     "firing": 0.0,
+     "set_size": 1.5166666666666666
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.008333333333333333,
+     "set_size": 2.0
+    }
+   ]
+  },
+  {
+   "seed": 3,
+   "arm": "rf",
+   "method": "well_quantile_d0.20",
+   "tau": 0.957149438560009,
+   "rho": 168.8940887451172,
+   "K_cal_wells": 13,
+   "coverage": 0.9469964664310954,
+   "coverage_well_mean": 0.8170460704607045,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 0.9371273712737127,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.0003719546215361726,
+   "mean_set_size": 1.917984005951274,
+   "singleton_rate": 0.08201599404872606,
+   "empty_set_rate": 0.0,
+   "abstention": 0.918076994606658,
+   "wrong_label_rate": 0.05291054491352055,
+   "novelty_recall": 0.38461538461538464,
+   "novelty_lift": -0.5334616099912735,
+   "n_wells_summarized": 6,
+   "wells": [
+    {
+     "well": 1,
+     "n": 7380,
+     "coverage": 0.9371273712737127,
+     "firing": 0.0004065040650406504,
+     "set_size": 1.8967479674796748
+    },
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.9983043662568885
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.9137931034482758
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 0.15,
+     "firing": 0.016666666666666666,
+     "set_size": 1.15
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.08333333333333333,
+     "firing": 0.0,
+     "set_size": 1.0833333333333333
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    }
+   ]
+  },
+  {
+   "seed": 3,
+   "arm": "rf",
+   "method": "well_quantile_d0.30",
+   "tau": 0.9045737609267235,
+   "rho": 2.298389434814453,
+   "K_cal_wells": 13,
+   "coverage": 0.9025478891575228,
+   "coverage_well_mean": 0.7735324596595495,
+   "share_wells_covered": 0.8333333333333334,
+   "coverage_worst_well": 0.8761517615176152,
+   "share_wells_firing_le_beta": 0.8333333333333334,
+   "firing_rate": 0.08499163102101544,
+   "mean_set_size": 1.6860702994234704,
+   "singleton_rate": 0.3139297005765297,
+   "empty_set_rate": 0.0,
+   "abstention": 0.7308908313185791,
+   "wrong_label_rate": 0.05886181885809931,
+   "novelty_recall": 0.9807692307692307,
+   "novelty_lift": 0.2498783994506516,
+   "n_wells_summarized": 6,
+   "wells": [
+    {
+     "well": 1,
+     "n": 7380,
+     "coverage": 0.8761517615176152,
+     "firing": 0.08211382113821138,
+     "set_size": 1.6456639566395663
+    },
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 0.996608732513777,
+     "firing": 0.04959728698601102,
+     "set_size": 1.7897414158541756
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 0.96,
+     "firing": 0.2,
+     "set_size": 1.64
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 0.9166666666666666,
+     "firing": 0.0,
+     "set_size": 1.2916666666666667
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 1.0,
+     "firing": 0.5344827586206896,
+     "set_size": 1.5603448275862069
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 0.9692307692307692,
+     "firing": 0.0,
+     "set_size": 1.4692307692307693
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "coverage": 1.0,
+     "firing": 0.08125,
+     "set_size": 2.0
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 0.016666666666666666,
+     "firing": 1.0,
+     "set_size": 1.0166666666666666
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.0,
+     "firing": 0.35,
+     "set_size": 1.0
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.03333333333333333,
+     "set_size": 2.0
+    }
+   ],
+   "cal_wells": [
+    {
+     "well": 3,
+     "n": 1672,
+     "n_fault": 18,
+     "q": 0.5928809642791748,
+     "error_rate": 0.23684210526315788
+    },
+    {
+     "well": 7,
+     "n": 515,
+     "n_fault": 429,
+     "q": 0.894018866121769,
+     "error_rate": 0.1883495145631068
+    },
+    {
+     "well": 11,
+     "n": 307,
+     "n_fault": 76,
+     "q": 0.924457959830761,
+     "error_rate": 0.40390879478827363
+    },
+    {
+     "well": 12,
+     "n": 65,
+     "n_fault": 0,
+     "q": 0.6682266592979431,
+     "error_rate": 0.2153846153846154
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "n_fault": 45,
+     "q": 0.9991973287542351,
+     "error_rate": 0.7032967032967034
+    },
+    {
+     "well": 19,
+     "n": 300,
+     "n_fault": 0,
+     "q": 0.957149438560009,
+     "error_rate": 0.72
+    },
+    {
+     "well": 20,
+     "n": 327,
+     "n_fault": 18,
+     "q": 0.9045737609267235,
+     "error_rate": 0.1834862385321101
+    },
+    {
+     "well": 24,
+     "n": 748,
+     "n_fault": 18,
+     "q": 0.6435435712337494,
+     "error_rate": 0.2660427807486631
+    },
+    {
+     "well": 29,
+     "n": 60,
+     "n_fault": 0,
+     "q": 0.33144593238830566,
+     "error_rate": 0.0
+    },
+    {
+     "well": 32,
+     "n": 60,
+     "n_fault": 0,
+     "q": 0.09571236371994019,
+     "error_rate": 0.0
+    },
+    {
+     "well": 37,
+     "n": 120,
+     "n_fault": 0,
+     "q": 0.3327473998069763,
+     "error_rate": 0.008333333333333333
+    },
+    {
+     "well": 39,
+     "n": 120,
+     "n_fault": 0,
+     "q": 0.103995680809021,
+     "error_rate": 0.0
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "n_fault": 0,
+     "q": 0.542840301990509,
+     "error_rate": 0.11481481481481481
+    }
+   ]
+  },
+  {
+   "seed": 3,
+   "arm": "transformer",
+   "method": "window",
+   "tau": 0.6348728239536285,
+   "rho": 24.066789627075195,
+   "K_cal_wells": 13,
+   "coverage": 0.8956667286591036,
+   "coverage_well_mean": 0.7655397396606534,
+   "share_wells_covered": 0.6666666666666666,
+   "coverage_worst_well": 0.5603448275862069,
+   "share_wells_firing_le_beta": 0.8333333333333334,
+   "firing_rate": 0.04258880416589176,
+   "mean_set_size": 1.2041100985679747,
+   "singleton_rate": 0.7958899014320253,
+   "empty_set_rate": 0.0,
+   "abstention": 0.24604798214617818,
+   "wrong_label_rate": 0.09429049655941975,
+   "novelty_recall": 0.6185897435897436,
+   "novelty_lift": 0.37254176144356543,
+   "n_wells_summarized": 6,
+   "wells": [
+    {
+     "well": 1,
+     "n": 7380,
+     "coverage": 0.9020325203252032,
+     "firing": 0.04403794037940379,
+     "set_size": 1.155420054200542
+    },
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 0.8991097922848664,
+     "firing": 0.010173802458668928,
+     "set_size": 1.391267486222976
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.2,
+     "set_size": 1.0
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.0416666666666667
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 0.5603448275862069,
+     "firing": 0.4827586206896552,
+     "set_size": 1.0603448275862069
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 0.9230769230769231,
+     "firing": 0.0,
+     "set_size": 1.0
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "coverage": 0.9958333333333333,
+     "firing": 0.0,
+     "set_size": 1.2041666666666666
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 0.03333333333333333,
+     "firing": 0.6,
+     "set_size": 1.0333333333333334
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.35,
+     "firing": 0.15,
+     "set_size": 1.1833333333333333
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 0.9916666666666667,
+     "firing": 0.025,
+     "set_size": 1.05
+    }
+   ]
+  },
+  {
+   "seed": 3,
+   "arm": "transformer",
+   "method": "well_quantile",
+   "tau": 0.998202205169946,
+   "rho": 195.3645477294922,
+   "K_cal_wells": 13,
+   "coverage": 0.9996280453784638,
+   "coverage_well_mean": 0.9933333333333334,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 1.0,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.0001859773107680863,
+   "mean_set_size": 1.9964664310954063,
+   "singleton_rate": 0.0035335689045936395,
+   "empty_set_rate": 0.0,
+   "abstention": 0.9965594197507904,
+   "wrong_label_rate": 0.00027896596615212943,
+   "novelty_recall": 0.8461538461538461,
+   "novelty_lift": -0.1504055735969443,
+   "n_wells_summarized": 6,
+   "wells": [
+    {
+     "well": 1,
+     "n": 7380,
+     "coverage": 1.0,
+     "firing": 0.00013550135501355014,
+     "set_size": 1.9953929539295392
+    },
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 0.9333333333333333,
+     "firing": 0.016666666666666666,
+     "set_size": 1.9333333333333333
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    }
+   ]
+  },
+  {
+   "seed": 3,
+   "arm": "transformer",
+   "method": "well_balanced",
+   "tau": 0.9940121765248477,
+   "rho": 77.04174041748047,
+   "K_cal_wells": 13,
+   "coverage": 0.9969313743723266,
+   "coverage_well_mean": 0.953982338099243,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 0.9568965517241379,
+   "share_wells_firing_le_beta": 0.8333333333333334,
+   "firing_rate": 0.002696671006137251,
+   "mean_set_size": 1.97861260926167,
+   "singleton_rate": 0.021387390738329924,
+   "empty_set_rate": 0.0,
+   "abstention": 0.9791705411939743,
+   "wrong_label_rate": 0.002510693695369165,
+   "novelty_recall": 0.7339743589743589,
+   "novelty_lift": -0.24519618221961537,
+   "n_wells_summarized": 6,
+   "wells": [
+    {
+     "well": 1,
+     "n": 7380,
+     "coverage": 0.9995934959349594,
+     "firing": 0.00013550135501355014,
+     "set_size": 1.9733062330623306
+    },
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.88
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 0.9568965517241379,
+     "firing": 0.22413793103448276,
+     "set_size": 1.956896551724138
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 0.6333333333333333,
+     "firing": 0.016666666666666666,
+     "set_size": 1.6333333333333333
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.95,
+     "firing": 0.0,
+     "set_size": 1.95
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.008333333333333333,
+     "set_size": 2.0
+    }
+   ]
+  },
+  {
+   "seed": 3,
+   "arm": "transformer",
+   "method": "well_subsample",
+   "tau": 0.9940121765248477,
+   "rho": 65.69014739990234,
+   "K_cal_wells": 13,
+   "coverage": 0.9969313743723266,
+   "coverage_well_mean": 0.953982338099243,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 0.9568965517241379,
+   "share_wells_firing_le_beta": 0.8333333333333334,
+   "firing_rate": 0.003161614283057467,
+   "mean_set_size": 1.97861260926167,
+   "singleton_rate": 0.021387390738329924,
+   "empty_set_rate": 0.0,
+   "abstention": 0.9792635298493584,
+   "wrong_label_rate": 0.002417705039985122,
+   "novelty_recall": 0.75,
+   "novelty_lift": -0.22926352984935838,
+   "n_wells_summarized": 6,
+   "wells": [
+    {
+     "well": 1,
+     "n": 7380,
+     "coverage": 0.9995934959349594,
+     "firing": 0.00013550135501355014,
+     "set_size": 1.9733062330623306
+    },
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.88
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 0.9568965517241379,
+     "firing": 0.25862068965517243,
+     "set_size": 1.956896551724138
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 0.6333333333333333,
+     "firing": 0.03333333333333333,
+     "set_size": 1.6333333333333333
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.95,
+     "firing": 0.0,
+     "set_size": 1.95
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.008333333333333333,
+     "set_size": 2.0
+    }
+   ]
+  },
+  {
+   "seed": 3,
+   "arm": "transformer",
+   "method": "well_quantile_d0.20",
+   "tau": 0.9606582894921303,
+   "rho": 94.89461517333984,
+   "K_cal_wells": 13,
+   "coverage": 0.9879114748000744,
+   "coverage_well_mean": 0.8655650290237243,
+   "share_wells_covered": 0.8333333333333334,
+   "coverage_worst_well": 0.8448275862068966,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.000650920587688302,
+   "mean_set_size": 1.9112888227636229,
+   "singleton_rate": 0.08871117723637716,
+   "empty_set_rate": 0.0,
+   "abstention": 0.9113818114190069,
+   "wrong_label_rate": 0.011995536544541566,
+   "novelty_recall": 0.4358974358974359,
+   "novelty_lift": -0.47548437552157097,
+   "n_wells_summarized": 6,
+   "wells": [
+    {
+     "well": 1,
+     "n": 7380,
+     "coverage": 0.994579945799458,
+     "firing": 0.00013550135501355014,
+     "set_size": 1.8844173441734418
+    },
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 0.9995760915642221,
+     "firing": 0.0,
+     "set_size": 1.997032640949555
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.8
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 0.8448275862068966,
+     "firing": 0.034482758620689655,
+     "set_size": 1.8448275862068966
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 0.21666666666666667,
+     "firing": 0.016666666666666666,
+     "set_size": 1.2166666666666666
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.6,
+     "firing": 0.0,
+     "set_size": 1.6
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.008333333333333333,
+     "set_size": 2.0
+    }
+   ]
+  },
+  {
+   "seed": 3,
+   "arm": "transformer",
+   "method": "well_quantile_d0.30",
+   "tau": 0.7994444370269775,
+   "rho": 25.494047164916992,
+   "K_cal_wells": 13,
+   "coverage": 0.9597359122187094,
+   "coverage_well_mean": 0.8075278631129932,
+   "share_wells_covered": 0.8333333333333334,
+   "coverage_worst_well": 0.6810344827586207,
+   "share_wells_firing_le_beta": 0.8333333333333334,
+   "firing_rate": 0.037753394085921516,
+   "mean_set_size": 1.6312999814022688,
+   "singleton_rate": 0.36870001859773105,
+   "empty_set_rate": 0.0,
+   "abstention": 0.6665426817928213,
+   "wrong_label_rate": 0.0318951087967268,
+   "novelty_recall": 0.6826923076923077,
+   "novelty_lift": 0.01614962589948643,
+   "n_wells_summarized": 6,
+   "wells": [
+    {
+     "well": 1,
+     "n": 7380,
+     "coverage": 0.9619241192411924,
+     "firing": 0.038211382113821135,
+     "set_size": 1.6001355013550136
+    },
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 0.993217465027554,
+     "firing": 0.0072064434082238235,
+     "set_size": 1.7842306061890632
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.2,
+     "set_size": 1.32
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.2083333333333333
+    },
+    {
+     "well": 15,
+     "n": 116,
+     "coverage": 0.6810344827586207,
+     "firing": 0.4827586206896552,
+     "set_size": 1.1982758620689655
+    },
+    {
+     "well": 21,
+     "n": 130,
+     "coverage": 0.9307692307692308,
+     "firing": 0.0,
+     "set_size": 1.1692307692307693
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.7770833333333333
+    },
+    {
+     "well": 25,
+     "n": 60,
+     "coverage": 0.05,
+     "firing": 0.5833333333333334,
+     "set_size": 1.05
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "coverage": 0.4666666666666667,
+     "firing": 0.13333333333333333,
+     "set_size": 1.4333333333333333
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "coverage": 0.9916666666666667,
+     "firing": 0.025,
+     "set_size": 1.4166666666666667
+    }
+   ],
+   "cal_wells": [
+    {
+     "well": 3,
+     "n": 1672,
+     "n_fault": 18,
+     "q": 0.21719521284103394,
+     "error_rate": 0.013157894736842105
+    },
+    {
+     "well": 7,
+     "n": 515,
+     "n_fault": 429,
+     "q": 0.4016258716583252,
+     "error_rate": 0.06019417475728155
+    },
+    {
+     "well": 11,
+     "n": 307,
+     "n_fault": 76,
+     "q": 0.7994444370269775,
+     "error_rate": 0.2671009771986971
+    },
+    {
+     "well": 12,
+     "n": 65,
+     "n_fault": 0,
+     "q": 0.43476712703704834,
+     "error_rate": 0.046153846153846156
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "n_fault": 45,
+     "q": 0.998202205169946,
+     "error_rate": 0.7527472527472527
+    },
+    {
+     "well": 19,
+     "n": 300,
+     "n_fault": 0,
+     "q": 0.9606582894921303,
+     "error_rate": 0.41
+    },
+    {
+     "well": 20,
+     "n": 327,
+     "n_fault": 18,
+     "q": 0.9011098369956017,
+     "error_rate": 0.345565749235474
+    },
+    {
+     "well": 24,
+     "n": 748,
+     "n_fault": 18,
+     "q": 0.5032882988452911,
+     "error_rate": 0.10427807486631016
+    },
+    {
+     "well": 29,
+     "n": 60,
+     "n_fault": 0,
+     "q": 0.2399718165397644,
+     "error_rate": 0.0
+    },
+    {
+     "well": 32,
+     "n": 60,
+     "n_fault": 0,
+     "q": 0.19348347187042236,
+     "error_rate": 0.0
+    },
+    {
+     "well": 37,
+     "n": 120,
+     "n_fault": 0,
+     "q": 0.20628207921981812,
+     "error_rate": 0.0
+    },
+    {
+     "well": 39,
+     "n": 120,
+     "n_fault": 0,
+     "q": 0.19138622283935547,
+     "error_rate": 0.0
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "n_fault": 0,
+     "q": 0.6871884763240814,
+     "error_rate": 0.1388888888888889
+    }
+   ]
+  },
+  {
+   "seed": 4,
+   "arm": "rf",
+   "method": "window",
+   "tau": 0.8168428838253021,
+   "rho": 6.910282135009766,
+   "K_cal_wells": 9,
+   "coverage": 0.9728271532273887,
+   "coverage_well_mean": 0.8899573601643636,
+   "share_wells_covered": 0.5,
+   "coverage_worst_well": 0.38461538461538464,
+   "share_wells_firing_le_beta": 0.8333333333333334,
+   "firing_rate": 0.02403374534039631,
+   "mean_set_size": 1.6112419070041202,
+   "singleton_rate": 0.38875809299587993,
+   "empty_set_rate": 0.0,
+   "abstention": 0.6238964096527368,
+   "wrong_label_rate": 0.015401216401804984,
+   "novelty_recall": 0.35294117647058826,
+   "novelty_lift": -0.2709552331821486,
+   "n_wells_summarized": 6,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 0.989826197541331,
+     "firing": 0.0,
+     "set_size": 1.6218736752861382
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 0.9925438596491228,
+     "firing": 0.02236842105263158,
+     "set_size": 1.6239766081871345
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.2,
+     "set_size": 1.56
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 0.38461538461538464,
+     "firing": 0.3901098901098901,
+     "set_size": 1.1813186813186813
+    },
+    {
+     "well": 20,
+     "n": 327,
+     "coverage": 0.8960244648318043,
+     "firing": 0.039755351681957186,
+     "set_size": 1.724770642201835
+    },
+    {
+     "well": 29,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.2833333333333334
+    },
+    {
+     "well": 32,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.0
+    },
+    {
+     "well": 37,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.4833333333333334
+    },
+    {
+     "well": 42,
+     "n": 221,
+     "coverage": 0.746606334841629,
+     "firing": 0.013574660633484163,
+     "set_size": 1.6199095022624435
+    }
+   ]
+  },
+  {
+   "seed": 4,
+   "arm": "rf",
+   "method": "well_quantile",
+   "tau": 0.9957311442121863,
+   "rho": 1949.7486572265625,
+   "K_cal_wells": 9,
+   "coverage": 0.9965666078085148,
+   "coverage_well_mean": 0.9803589906126334,
+   "share_wells_covered": 0.8333333333333334,
+   "coverage_worst_well": 0.8791208791208791,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.014125956444967627,
+   "mean_set_size": 1.996468510888758,
+   "singleton_rate": 0.003531489111241907,
+   "empty_set_rate": 0.0,
+   "abstention": 0.9965666078085148,
+   "wrong_label_rate": 0.0033352952717284677,
+   "novelty_recall": 1.0,
+   "novelty_lift": 0.003433392191485196,
+   "n_wells_summarized": 6,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 1.0,
+     "firing": 0.020321637426900584,
+     "set_size": 2.0
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 0.8791208791208791,
+     "firing": 0.027472527472527472,
+     "set_size": 1.8736263736263736
+    },
+    {
+     "well": 20,
+     "n": 327,
+     "coverage": 0.9938837920489296,
+     "firing": 0.0,
+     "set_size": 1.9938837920489296
+    },
+    {
+     "well": 29,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 32,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 37,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 42,
+     "n": 221,
+     "coverage": 0.9502262443438914,
+     "firing": 0.0,
+     "set_size": 1.9502262443438914
+    }
+   ]
+  },
+  {
+   "seed": 4,
+   "arm": "rf",
+   "method": "well_balanced",
+   "tau": 1.0,
+   "rho": 32986.45703125,
+   "K_cal_wells": 9,
+   "coverage": 1.0,
+   "coverage_well_mean": 1.0,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 1.0,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.007553462821267412,
+   "mean_set_size": 2.0,
+   "singleton_rate": 0.0,
+   "empty_set_rate": 0.0,
+   "abstention": 1.0,
+   "wrong_label_rate": 0.0,
+   "novelty_recall": 1.0,
+   "novelty_lift": 0.0,
+   "n_wells_summarized": 6,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 1.0,
+     "firing": 0.011257309941520468,
+     "set_size": 2.0
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 20,
+     "n": 327,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 29,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 32,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 37,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 42,
+     "n": 221,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    }
+   ]
+  },
+  {
+   "seed": 4,
+   "arm": "rf",
+   "method": "well_subsample",
+   "tau": 1.0,
+   "rho": 32986.45703125,
+   "K_cal_wells": 9,
+   "coverage": 1.0,
+   "coverage_well_mean": 1.0,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 1.0,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.007553462821267412,
+   "mean_set_size": 2.0,
+   "singleton_rate": 0.0,
+   "empty_set_rate": 0.0,
+   "abstention": 1.0,
+   "wrong_label_rate": 0.0,
+   "novelty_recall": 1.0,
+   "novelty_lift": 0.0,
+   "n_wells_summarized": 6,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 1.0,
+     "firing": 0.011257309941520468,
+     "set_size": 2.0
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 20,
+     "n": 327,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 29,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 32,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 37,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 42,
+     "n": 221,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    }
+   ]
+  },
+  {
+   "seed": 4,
+   "arm": "rf",
+   "method": "well_quantile_d0.20",
+   "tau": 0.9572545923292637,
+   "rho": 27.172494888305664,
+   "K_cal_wells": 9,
+   "coverage": 0.9894055326662743,
+   "coverage_well_mean": 0.9416238854986833,
+   "share_wells_covered": 0.6666666666666666,
+   "coverage_worst_well": 0.6923076923076923,
+   "share_wells_firing_le_beta": 0.8333333333333334,
+   "firing_rate": 0.020600353148911125,
+   "mean_set_size": 1.986364528153816,
+   "singleton_rate": 0.01363547184618403,
+   "empty_set_rate": 0.0,
+   "abstention": 0.989503629586031,
+   "wrong_label_rate": 0.007455365901510693,
+   "novelty_recall": 0.839572192513369,
+   "novelty_lift": -0.149931437072662,
+   "n_wells_summarized": 6,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.9995760915642222
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 1.0,
+     "firing": 0.02236842105263158,
+     "set_size": 1.9997076023391813
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.04,
+     "set_size": 2.0
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 0.6923076923076923,
+     "firing": 0.2802197802197802,
+     "set_size": 1.6263736263736264
+    },
+    {
+     "well": 20,
+     "n": 327,
+     "coverage": 0.963302752293578,
+     "firing": 0.01529051987767584,
+     "set_size": 1.963302752293578
+    },
+    {
+     "well": 29,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 32,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 37,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.8666666666666667
+    },
+    {
+     "well": 42,
+     "n": 221,
+     "coverage": 0.8190045248868778,
+     "firing": 0.0,
+     "set_size": 1.8190045248868778
+    }
+   ]
+  },
+  {
+   "seed": 4,
+   "arm": "rf",
+   "method": "well_quantile_d0.30",
+   "tau": 0.9489994756877422,
+   "rho": 4.623957633972168,
+   "K_cal_wells": 9,
+   "coverage": 0.9884245634687071,
+   "coverage_well_mean": 0.9364387486351868,
+   "share_wells_covered": 0.6666666666666666,
+   "coverage_worst_well": 0.6593406593406593,
+   "share_wells_firing_le_beta": 0.8333333333333334,
+   "firing_rate": 0.025701392976260545,
+   "mean_set_size": 1.984206395919168,
+   "singleton_rate": 0.01579360408083186,
+   "empty_set_rate": 0.0,
+   "abstention": 0.9903865018638415,
+   "wrong_label_rate": 0.0054934275063763,
+   "novelty_recall": 0.8128342245989305,
+   "novelty_lift": -0.17755227726491096,
+   "n_wells_summarized": 6,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.9987282746926665
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 1.0,
+     "firing": 0.02236842105263158,
+     "set_size": 1.998830409356725
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.2,
+     "set_size": 2.0
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 0.6593406593406593,
+     "firing": 0.42857142857142855,
+     "set_size": 1.5769230769230769
+    },
+    {
+     "well": 20,
+     "n": 327,
+     "coverage": 0.9541284403669725,
+     "firing": 0.0581039755351682,
+     "set_size": 1.9541284403669725
+    },
+    {
+     "well": 29,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 32,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 37,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.8583333333333334
+    },
+    {
+     "well": 42,
+     "n": 221,
+     "coverage": 0.8144796380090498,
+     "firing": 0.03167420814479638,
+     "set_size": 1.8144796380090498
+    }
+   ],
+   "cal_wells": [
+    {
+     "well": 3,
+     "n": 1672,
+     "n_fault": 18,
+     "q": 0.5134656429290771,
+     "error_rate": 0.11064593301435406
+    },
+    {
+     "well": 7,
+     "n": 515,
+     "n_fault": 429,
+     "q": 0.9572545923292637,
+     "error_rate": 0.1650485436893204
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "n_fault": 3,
+     "q": 0.41790616512298584,
+     "error_rate": 0.0
+    },
+    {
+     "well": 19,
+     "n": 300,
+     "n_fault": 0,
+     "q": 0.9489994756877422,
+     "error_rate": 0.7866666666666666
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "n_fault": 0,
+     "q": 0.6518018841743469,
+     "error_rate": 0.25416666666666665
+    },
+    {
+     "well": 24,
+     "n": 748,
+     "n_fault": 18,
+     "q": 0.6227422952651978,
+     "error_rate": 0.23128342245989306
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "n_fault": 0,
+     "q": 0.9957311442121863,
+     "error_rate": 1.0
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "n_fault": 0,
+     "q": 0.6962785422801971,
+     "error_rate": 0.225
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "n_fault": 0,
+     "q": 0.7368011772632599,
+     "error_rate": 0.2833333333333333
+    }
+   ]
+  },
+  {
+   "seed": 4,
+   "arm": "transformer",
+   "method": "window",
+   "tau": 0.49816495180130005,
+   "rho": 27.149564743041992,
+   "K_cal_wells": 9,
+   "coverage": 0.8799293702177752,
+   "coverage_well_mean": 0.80801141775834,
+   "share_wells_covered": 0.3333333333333333,
+   "coverage_worst_well": 0.21978021978021978,
+   "share_wells_firing_le_beta": 0.8333333333333334,
+   "firing_rate": 0.026388071414557582,
+   "mean_set_size": 0.998234255444379,
+   "singleton_rate": 0.998234255444379,
+   "empty_set_rate": 0.0017657445556209534,
+   "abstention": 0.028153815970178537,
+   "wrong_label_rate": 0.09505591524426132,
+   "novelty_recall": 0.11764705882352941,
+   "novelty_lift": 0.08949324285335088,
+   "n_wells_summarized": 6,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 0.6803730394234845,
+     "firing": 0.007630351844001695,
+     "set_size": 0.9936413734633319
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 0.9769005847953216,
+     "firing": 0.02149122807017544,
+     "set_size": 1.0
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.2,
+     "set_size": 1.0
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 0.21978021978021978,
+     "firing": 0.38461538461538464,
+     "set_size": 1.0
+    },
+    {
+     "well": 20,
+     "n": 327,
+     "coverage": 0.6574923547400612,
+     "firing": 0.0764525993883792,
+     "set_size": 0.9969418960244648
+    },
+    {
+     "well": 29,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.0
+    },
+    {
+     "well": 32,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.0
+    },
+    {
+     "well": 37,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.008333333333333333,
+     "set_size": 1.0
+    },
+    {
+     "well": 42,
+     "n": 221,
+     "coverage": 0.7375565610859729,
+     "firing": 0.013574660633484163,
+     "set_size": 0.9909502262443439
+    }
+   ]
+  },
+  {
+   "seed": 4,
+   "arm": "transformer",
+   "method": "well_quantile",
+   "tau": 0.9896738929674029,
+   "rho": 793.633544921875,
+   "K_cal_wells": 9,
+   "coverage": 0.9880321757896802,
+   "coverage_well_mean": 0.9649042072419053,
+   "share_wells_covered": 0.8333333333333334,
+   "coverage_worst_well": 0.7417582417582418,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.012556405728860114,
+   "mean_set_size": 1.9879340788699236,
+   "singleton_rate": 0.012065921130076516,
+   "empty_set_rate": 0.0,
+   "abstention": 0.9943103786541103,
+   "wrong_label_rate": 0.005591524426133019,
+   "novelty_recall": 0.9946524064171123,
+   "novelty_lift": 0.0003420277630019619,
+   "n_wells_summarized": 6,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 0.9909356725146199,
+     "firing": 0.01739766081871345,
+     "set_size": 1.99093567251462
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.96
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 0.7417582417582418,
+     "firing": 0.04945054945054945,
+     "set_size": 1.7417582417582418
+    },
+    {
+     "well": 20,
+     "n": 327,
+     "coverage": 0.9785932721712538,
+     "firing": 0.0,
+     "set_size": 1.9785932721712538
+    },
+    {
+     "well": 29,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 32,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 37,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 42,
+     "n": 221,
+     "coverage": 0.9728506787330317,
+     "firing": 0.0,
+     "set_size": 1.9728506787330318
+    }
+   ]
+  },
+  {
+   "seed": 4,
+   "arm": "transformer",
+   "method": "well_balanced",
+   "tau": 0.999999999990904,
+   "rho": 85084.4375,
+   "K_cal_wells": 9,
+   "coverage": 1.0,
+   "coverage_well_mean": 1.0,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 1.0,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.0006866784382970375,
+   "mean_set_size": 2.0,
+   "singleton_rate": 0.0,
+   "empty_set_rate": 0.0,
+   "abstention": 1.0,
+   "wrong_label_rate": 0.0,
+   "novelty_recall": 1.0,
+   "novelty_lift": 0.0,
+   "n_wells_summarized": 6,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 1.0,
+     "firing": 0.0010233918128654971,
+     "set_size": 2.0
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 20,
+     "n": 327,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 29,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 32,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 37,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 42,
+     "n": 221,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    }
+   ]
+  },
+  {
+   "seed": 4,
+   "arm": "transformer",
+   "method": "well_subsample",
+   "tau": 0.999999999990904,
+   "rho": 85084.4375,
+   "K_cal_wells": 9,
+   "coverage": 1.0,
+   "coverage_well_mean": 1.0,
+   "share_wells_covered": 1.0,
+   "coverage_worst_well": 1.0,
+   "share_wells_firing_le_beta": 1.0,
+   "firing_rate": 0.0006866784382970375,
+   "mean_set_size": 2.0,
+   "singleton_rate": 0.0,
+   "empty_set_rate": 0.0,
+   "abstention": 1.0,
+   "wrong_label_rate": 0.0,
+   "novelty_recall": 1.0,
+   "novelty_lift": 0.0,
+   "n_wells_summarized": 6,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 1.0,
+     "firing": 0.0010233918128654971,
+     "set_size": 2.0
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 20,
+     "n": 327,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 29,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 32,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 37,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 42,
+     "n": 221,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    }
+   ]
+  },
+  {
+   "seed": 4,
+   "arm": "transformer",
+   "method": "well_quantile_d0.20",
+   "tau": 0.9215228036046028,
+   "rho": 86.37626647949219,
+   "K_cal_wells": 9,
+   "coverage": 0.9770453207769276,
+   "coverage_well_mean": 0.9286163546268141,
+   "share_wells_covered": 0.8333333333333334,
+   "coverage_worst_well": 0.532967032967033,
+   "share_wells_firing_le_beta": 0.8333333333333334,
+   "firing_rate": 0.017461251716696095,
+   "mean_set_size": 1.9724347655483618,
+   "singleton_rate": 0.027565234451638217,
+   "empty_set_rate": 0.0,
+   "abstention": 0.9851873651167353,
+   "wrong_label_rate": 0.010202079654698843,
+   "novelty_recall": 0.8716577540106952,
+   "novelty_lift": -0.1135296111060401,
+   "n_wells_summarized": 6,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 0.9991521831284442,
+     "firing": 0.0,
+     "set_size": 1.9821958456973294
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 0.9847953216374269,
+     "firing": 0.020760233918128656,
+     "set_size": 1.984795321637427
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.8
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 0.532967032967033,
+     "firing": 0.17582417582417584,
+     "set_size": 1.532967032967033
+    },
+    {
+     "well": 20,
+     "n": 327,
+     "coverage": 0.926605504587156,
+     "firing": 0.012232415902140673,
+     "set_size": 1.9204892966360856
+    },
+    {
+     "well": 29,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 32,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 37,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 2.0
+    },
+    {
+     "well": 42,
+     "n": 221,
+     "coverage": 0.9140271493212669,
+     "firing": 0.0,
+     "set_size": 1.914027149321267
+    }
+   ]
+  },
+  {
+   "seed": 4,
+   "arm": "transformer",
+   "method": "well_quantile_d0.30",
+   "tau": 0.5860524773597717,
+   "rho": 24.94285011291504,
+   "K_cal_wells": 9,
+   "coverage": 0.9162252305277614,
+   "coverage_well_mean": 0.8472224625874579,
+   "share_wells_covered": 0.3333333333333333,
+   "coverage_worst_well": 0.3076923076923077,
+   "share_wells_firing_le_beta": 0.8333333333333334,
+   "firing_rate": 0.029330979007259173,
+   "mean_set_size": 1.0814204433980772,
+   "singleton_rate": 0.9185795566019227,
+   "empty_set_rate": 0.0,
+   "abstention": 0.1093780655287424,
+   "wrong_label_rate": 0.05983912105159898,
+   "novelty_recall": 0.35294117647058826,
+   "novelty_lift": 0.24356311094184585,
+   "n_wells_summarized": 6,
+   "wells": [
+    {
+     "well": 4,
+     "n": 2359,
+     "coverage": 0.8100890207715133,
+     "firing": 0.013988978380669776,
+     "set_size": 1.288257736328953
+    },
+    {
+     "well": 6,
+     "n": 6840,
+     "coverage": 0.9783625730994152,
+     "firing": 0.02149122807017544,
+     "set_size": 1.006578947368421
+    },
+    {
+     "well": 9,
+     "n": 25,
+     "coverage": 1.0,
+     "firing": 0.2,
+     "set_size": 1.0
+    },
+    {
+     "well": 16,
+     "n": 182,
+     "coverage": 0.3076923076923077,
+     "firing": 0.42857142857142855,
+     "set_size": 1.164835164835165
+    },
+    {
+     "well": 20,
+     "n": 327,
+     "coverage": 0.7370030581039755,
+     "firing": 0.09174311926605505,
+     "set_size": 1.1590214067278288
+    },
+    {
+     "well": 29,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.0
+    },
+    {
+     "well": 32,
+     "n": 60,
+     "coverage": 1.0,
+     "firing": 0.0,
+     "set_size": 1.0
+    },
+    {
+     "well": 37,
+     "n": 120,
+     "coverage": 1.0,
+     "firing": 0.008333333333333333,
+     "set_size": 1.0
+    },
+    {
+     "well": 42,
+     "n": 221,
+     "coverage": 0.7918552036199095,
+     "firing": 0.02262443438914027,
+     "set_size": 1.1040723981900453
+    }
+   ],
+   "cal_wells": [
+    {
+     "well": 3,
+     "n": 1672,
+     "n_fault": 18,
+     "q": 0.235387921333313,
+     "error_rate": 0.012559808612440191
+    },
+    {
+     "well": 7,
+     "n": 515,
+     "n_fault": 429,
+     "q": 0.46564817428588867,
+     "error_rate": 0.07961165048543689
+    },
+    {
+     "well": 13,
+     "n": 24,
+     "n_fault": 3,
+     "q": 0.5122149288654327,
+     "error_rate": 0.125
+    },
+    {
+     "well": 19,
+     "n": 300,
+     "n_fault": 0,
+     "q": 0.9215228036046028,
+     "error_rate": 0.6333333333333333
+    },
+    {
+     "well": 22,
+     "n": 480,
+     "n_fault": 0,
+     "q": 0.44341379404067993,
+     "error_rate": 0.04375
+    },
+    {
+     "well": 24,
+     "n": 748,
+     "n_fault": 18,
+     "q": 0.46795445680618286,
+     "error_rate": 0.07887700534759358
+    },
+    {
+     "well": 30,
+     "n": 60,
+     "n_fault": 0,
+     "q": 0.9896738929674029,
+     "error_rate": 0.7
+    },
+    {
+     "well": 38,
+     "n": 120,
+     "n_fault": 0,
+     "q": 0.2682167887687683,
+     "error_rate": 0.025
+    },
+    {
+     "well": 41,
+     "n": 540,
+     "n_fault": 0,
+     "q": 0.5860524773597717,
+     "error_rate": 0.11851851851851852
+    }
+   ]
+  }
+ ]
+}

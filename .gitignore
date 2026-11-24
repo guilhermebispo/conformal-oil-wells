@@ -1,0 +1,15 @@
+data/
+outputs*/windows.npz
+outputs_smoke/
+*.log
+!outputs/run.log
+__pycache__/
+*.pyc
+.pytest_cache/
+outputs_holdout/s*/
+
+# Working output folders of local runs (released results live in results/)
+/outputs*/
+
+# Logs of released runs are part of the evidence package
+!results/*/logs/*.log

@@ -1,0 +1,25 @@
+== stage analysis
+results.json: 246 values
+   analysis finished in 0 s
+== stage robustness
+robustness: 18 (alpha, beta) cells; per-well: rf 29, tr 29
+   robustness finished in 0 s
+== stage asset
+  rf window        cov=0.736 wells>=1-a=0.62 worst=0.47 |C|=1.24 abst=0.552 lift=+0.039 inf_tau=0
+  rf well_quantile cov=0.902 wells>=1-a=0.87 worst=0.79 |C|=1.73 abst=0.740 lift=+0.038 inf_tau=0
+  rf well_balanced cov=0.948 wells>=1-a=0.90 worst=0.89 |C|=1.93 abst=0.935 lift=+0.046 inf_tau=0
+  rf well_quantile_d0.20 cov=0.798 wells>=1-a=0.66 worst=0.50 |C|=1.41 abst=0.482 lift=+0.146 inf_tau=0
+  rf well_quantile_d0.30 cov=0.729 wells>=1-a=0.52 worst=0.39 |C|=1.15 abst=0.260 lift=+0.235 inf_tau=0
+  tr window        cov=0.786 wells>=1-a=0.39 worst=0.43 |C|=1.20 abst=0.577 lift=+0.186 inf_tau=0
+  tr well_quantile cov=0.974 wells>=1-a=0.83 worst=0.82 |C|=1.95 abst=0.965 lift=-0.002 inf_tau=0
+  tr well_balanced cov=0.985 wells>=1-a=0.97 worst=0.95 |C|=1.97 abst=0.980 lift=-0.003 inf_tau=0
+  tr well_quantile_d0.20 cov=0.942 wells>=1-a=0.72 worst=0.65 |C|=1.75 abst=0.788 lift=+0.135 inf_tau=0
+  tr well_quantile_d0.30 cov=0.924 wells>=1-a=0.69 worst=0.61 |C|=1.69 abst=0.743 lift=+0.075 inf_tau=0
+   asset finished in 1 s
+== stage figures
+  outputs/run01_wells/figures/fig2_risk_coverage.png
+  outputs/run01_wells/figures/fig3_reliability.png
+  outputs/run01_wells/figures/fig6_feature_importance.png
+  outputs/run01_wells/figures/fig7_per_well_coverage.png
+   figures finished in 1 s
+exit=0

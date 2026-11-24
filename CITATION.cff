@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software or results in your research, please cite it as below."
+title: "Asset-Level Conformal Monitoring of Offshore Oil Wells: Open-Set Guarantees When the Exchangeable Unit Is the Well"
+authors:
+  - family-names: "Serrano"
+    given-names: "André Luiz Marques"
+    affiliation: "Department of Electrical Engineering, University of Brasília (UnB)"
+  - family-names: "Bispo"
+    given-names: "Guilherme Dantas"
+    affiliation: "Department of Electrical Engineering, University of Brasília (UnB)"
+    email: "guilherme.bispo@redes.unb.br"
+version: 1.0.0
+date-released: "2026-11-23"
+license: "MIT"
+keywords:
+  - "conformal prediction"
+  - "exchangeability"
+  - "industrial monitoring"
+  - "fault detection"
+  - "open-set recognition"
+  - "3W dataset"
+  - "oil and gas"
+  - "reliability engineering"
+repository-code: "https://github.com/guilhermebispo/conformal-oil-wells"
+references:
+  - type: dataset
+    title: "3W Dataset 2.0.0"
+    authors:
+      - name: "Petrobras"
+    url: "https://github.com/petrobras/3W"
+    license: "CC-BY-4.0"

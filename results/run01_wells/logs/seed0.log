@@ -1,0 +1,19 @@
+== stage experiment
+windows=(45548, 64, 3) normal=31552 fault=13245 unseen=751 wells=28
+=== seed 0 ===
+  split: train=24462 cal=9816 test=10519 unseen=313 prev_test=0.333
+    selecting rf ...
+      {'n_estimators': 300, 'max_depth': None, 'min_samples_leaf': 1} -> val ROC-AUC 0.469
+      {'n_estimators': 300, 'max_depth': 12, 'min_samples_leaf': 5} -> val ROC-AUC 0.457
+      {'n_estimators': 500, 'max_depth': 20, 'min_samples_leaf': 2} -> val ROC-AUC 0.464
+    rf: {'n_estimators': 300, 'max_depth': None, 'min_samples_leaf': 1}
+    rf: MCC=0.283 AUC=0.608 abst=0.475 nov_rec=0.597 (22 s fit)
+    selecting transformer ...
+      {'d_model': 48, 'nhead': 4, 'layers': 2, 'lr': 0.0003, 'dropout': 0.1} -> val ROC-AUC 0.854
+      {'d_model': 48, 'nhead': 4, 'layers': 2, 'lr': 0.0001, 'dropout': 0.1} -> val ROC-AUC 0.584
+      {'d_model': 64, 'nhead': 4, 'layers': 2, 'lr': 0.0003, 'dropout': 0.2} -> val ROC-AUC 0.791
+    transformer: {'d_model': 48, 'nhead': 4, 'layers': 2, 'lr': 0.0003, 'dropout': 0.1}
+    transformer: MCC=0.475 AUC=0.819 abst=0.528 nov_rec=0.588 (137 s fit)
+  seed 0 done in 665 s
+   experiment finished in 665 s
+exit=0

@@ -1,0 +1,12 @@
+== stage experiment
+selection taken from outputs/run01_wells/s0/experiment.json
+windows=(45548, 64, 3) normal=31552 fault=13245 unseen=751 wells=28
+=== seed 1 ===
+  split: train=26076 cal=11069 test=7652 unseen=235 prev_test=0.571
+    rf: {'n_estimators': 300, 'max_depth': None, 'min_samples_leaf': 1}
+    rf: MCC=-0.026 AUC=0.399 abst=0.434 nov_rec=0.468 (29 s fit)
+    transformer: {'d_model': 48, 'nhead': 4, 'layers': 2, 'lr': 0.0003, 'dropout': 0.1}
+    transformer: MCC=0.251 AUC=0.598 abst=0.794 nov_rec=0.881 (927 s fit)
+  seed 1 done in 984 s
+   experiment finished in 985 s
+exit=0
